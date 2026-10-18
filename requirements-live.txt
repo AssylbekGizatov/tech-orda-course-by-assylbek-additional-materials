@@ -1,0 +1,20 @@
+# Optional: only for an intentionally enabled live OpenAI API extension.
+# The 54 offline notebooks do not need this profile, credentials, or paid calls.
+# Package resolution was checked against the core constraints on 2026-10-18.
+# SDK execution/authentication and live API responses were not tested in offline QA.
+-r requirements-core.txt
+
+openai==3.35.1
+
+# Resolved SDK-specific dependencies; separate from the executed offline lock.
+annotated-types==0.8.0
+anyio==4.15.1
+h11==0.16.0
+httpcore2==2.13.1
+httpx2==2.13.1
+jiter==0.17.0
+pydantic==2.14.1
+pydantic-core==2.50.1
+sniffio==1.3.1
+truststore==0.10.5
+typing-inspection==0.4.4

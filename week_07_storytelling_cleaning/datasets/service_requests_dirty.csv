@@ -1,0 +1,156 @@
+request_id,created_at,district,source,priority,status,response_minutes,cost_kzt
+R0001,2026-06-01T08:00:00, center ,mobile,high,open,34.1,
+R0002,2026-06-01T12:00:00, south,mobile,low,closed,101.2,5558
+R0003,2026-06-01T16:00:00,north,phone,medium,closed,99.7,27998
+R0004,2026-06-01T20:00:00,SOUTH,phone,medium,closed,58.6,20832
+R0005,2026-06-02T00:00:00, center ,phone,high,closed,30.5,13114
+R0006,2026-06-02T04:00:00, center ,web,low,closed,19.4,20749
+R0007,2026-06-02T08:00:00,North,phone,low,closed,66.8,11863
+R0008,2026-06-02T12:00:00,SOUTH,web,medium,closed,68.3,17035
+R0009,2026-06-02T16:00:00,South,web,medium,closed,84.9,9429
+R0010,2026-06-02T20:00:00, center ,mobile,high,open,45.7,19833
+R0011,2026-06-03T00:00:00,NORTH ,web,high,closed,62.5,21988
+R0012,2026-06-03T04:00:00, center ,web,high,open,56.7,14628
+R0013,2026-06-03T08:00:00, center ,web,low,open,52.5,-500
+R0014,2026-06-03T12:00:00,NORTH ,web,low,closed,35.7,0
+R0015,2026-06-03T16:00:00,Center,mobile,high,closed,44.4,16028
+R0016,2026-06-03T20:00:00,North,phone,medium,open,38.6,12050
+R0017,2026-06-04T00:00:00, south,web,medium,closed,74.8,6100
+R0018,2026-06-04T04:00:00,Center,web,low,closed,41.9,
+R0019,2026-06-04T08:00:00,CENTER,phone,low,closed,28.8,9795
+R0020,2026-06-04T12:00:00,north,web,medium,open,38.2,19829
+R0021,2026-06-04T16:00:00,CENTER,mobile,high,open,25.7,16144
+R0022,2026-06-04T20:00:00, center ,mobile,low,closed,41.0,20478
+R0023,2026-06-05T00:00:00, south,web,high,open,58.1,22743
+R0024,2026-06-05T04:00:00, south,mobile,medium,open,48.1,21840
+R0025,2026-06-05T08:00:00, center ,phone,medium,closed,,22816
+R0026,2026-06-05T12:00:00,South,mobile,low,closed,-8,15902
+R0027,2026-06-05T16:00:00,South,mobile,medium,open,110.4,14974
+R0028,2026-06-05T20:00:00, south,mobile,medium,open,70.3,25673
+R0029,2026-06-06T00:00:00, center ,phone,medium,open,,15204
+R0030,2026-06-06T04:00:00,North,web,high,closed,80.3,19555
+R0031,2026-06-06T08:00:00,South,web,medium,closed,102.8,20626
+R0032,2026-06-06T12:00:00,CENTER,phone,high,closed,43.2,11651
+R0033,2026-06-06T16:00:00,CENTER,web,high,closed,19.0,19044
+R0034,2026-06-06T20:00:00,NORTH ,mobile,low,open,76.2,15667
+R0035,2026-06-07T00:00:00,Center,phone,low,open,39.1,
+R0036,2026-06-07T04:00:00,Center,mobile,medium,closed,47.3,997
+R0037,2026-06-07T08:00:00,north,phone,medium,closed,49.7,27359
+R0038,2026-06-07T12:00:00,Center,mobile,low,open,24.4,20223
+R0039,2026-06-07T16:00:00,SOUTH,web,high,open,61.4,17286
+R0040,2026-06-07T20:00:00,Center,web,high,closed,49.2,12976
+R0041,2026-06-08T00:00:00,NORTH ,mobile,medium,open,61.2,21861
+R0042,2026-06-08T04:00:00,north,mobile,low,open,50.9,-1000
+R0043,2026-06-08T08:00:00, center ,phone,medium,open,67.6,3267
+R0044,2026-06-08T12:00:00,NORTH ,phone,high,closed,36.5,19484
+R0045,2026-06-08T16:00:00,North,web,low,closed,67.0,23147
+R0046,2026-06-08T20:00:00, south,web,high,closed,63.2,14342
+R0047,2026-06-09T00:00:00,SOUTH,mobile,low,closed,85.7,9319
+R0048,2026-06-09T04:00:00,CENTER,mobile,medium,closed,,5433
+R0049,2026-06-09T08:00:00,CENTER,phone,medium,closed,61.6,19341
+R0050,2026-06-09T12:00:00,CENTER,web,high,open,50.9,23296
+R0051,2026-06-09T16:00:00,SOUTH,web,low,closed,74.2,16025
+R0052,2026-06-09T20:00:00,north,phone,medium,closed,65.0,
+R0053,2026-06-10T00:00:00,north,web,high,open,77.1,14311
+R0054,2026-06-10T04:00:00, south,mobile,low,closed,56.1,22272
+R0055,2026-06-10T08:00:00,Center,mobile,high,closed,6.5,unknown
+R0056,2026-06-10T12:00:00,NORTH ,phone,high,closed,10.6,24217
+R0057,2026-06-10T16:00:00, center ,web,high,closed,,13805
+R0058,2026-06-10T20:00:00, center ,mobile,medium,closed,,14433
+R0059,2026-06-11T00:00:00,SOUTH,phone,medium,closed,61.8,20724
+R0060,2026-06-11T04:00:00,north,mobile,medium,closed,60.8,22951
+R0061,2026-06-11T08:00:00,Center,mobile,low,closed,42.0,2566
+R0062,2026-06-11T12:00:00,north,phone,medium,open,,18775
+R0063,2026-06-11T16:00:00,north,phone,low,closed,44.2,25073
+R0064,2026-06-11T20:00:00,Center,phone,high,open,27.3,6677
+R0065,2026-06-12T00:00:00,Center,web,high,closed,32.9,10102
+R0066,2026-06-12T04:00:00,CENTER,phone,low,open,53.3,20390
+R0067,2026-06-12T08:00:00,SOUTH,mobile,high,closed,95.1,12114
+R0068,2026-06-12T12:00:00,North,web,high,closed,69.0,20297
+R0069,2026-06-12T16:00:00, south,web,medium,closed,90.6,
+R0070,2026-06-12T20:00:00,SOUTH,phone,high,open,85.3,22717
+R0071,2026-06-13T00:00:00, center ,web,medium,closed,39.2,27071
+R0072,2026-06-13T04:00:00,South,phone,low,closed,,19682
+R0073,2026-06-13T08:00:00,Center,mobile,low,closed,56.5,29437
+R0074,2026-06-13T12:00:00, center ,phone,high,open,26.2,15260
+R0075,2026-06-13T16:00:00,Center,web,high,closed,3.8,21758
+R0076,2026-06-13T20:00:00, center ,web,medium,open,36.9,31043
+R0077,2026-06-14T00:00:00, south,web,low,open,79.6,10266
+R0078,2026-06-14T04:00:00,SOUTH,web,low,closed,2200.0,14847
+R0079,2026-06-14T08:00:00,Center,phone,low,closed,31.9,9183
+R0080,2026-06-14T12:00:00, south,mobile,high,closed,90.8,18984
+R0081,2026-06-14T16:00:00, south,phone,low,closed,103.9,10977
+R0082,2026-06-14T20:00:00,Center,web,low,closed,5.0,18927
+R0083,2026-06-15T00:00:00,CENTER,phone,medium,closed,67.1,7411
+R0084,2026-06-15T04:00:00,SOUTH,web,high,closed,88.0,12494
+R0085,2026-06-15T08:00:00, center ,mobile,medium,closed,32.3,9487
+R0086,2026-06-15T12:00:00,North,phone,medium,open,,
+R0087,2026-06-15T16:00:00,South,web,low,closed,,6068
+R0088,2026-06-15T20:00:00,NORTH ,web,high,closed,32.9,19132
+R0089,2026-99-99,north,phone,medium,closed,,12210
+R0090,2026-06-16T04:00:00,NORTH ,mobile,low,closed,100.2,22888
+R0091,2026-06-16T08:00:00,CENTER,phone,high,open,51.7,13667
+R0092,2026-06-16T12:00:00,South,phone,high,closed,,16888
+R0093,2026-06-16T16:00:00,north,mobile,low,closed,45.7,18159
+R0094,2026-06-16T20:00:00,north,web,medium,closed,58.2,8625
+R0095,2026-06-17T00:00:00,South,web,medium,open,70.1,17510
+R0096,2026-06-17T04:00:00,CENTER,web,medium,closed,,8561
+R0097,2026-06-17T08:00:00,north,mobile,high,closed,44.6,24154
+R0098,2026-06-17T12:00:00,South,mobile,low,open,79.9,25736
+R0099,2026-06-17T16:00:00,North,phone,low,closed,,24826
+R0100,2026-06-17T20:00:00,North,web,high,open,not_recorded,9883
+R0101,2026-06-18T00:00:00,SOUTH,web,low,closed,74.1,19338
+R0102,2026-06-18T04:00:00,NORTH ,web,medium,closed,57.0,16699
+R0103,2026-06-18T08:00:00,Center,mobile,low,open,46.0,
+R0104,2026-06-18T12:00:00,CENTER,phone,high,closed,23.1,20641
+R0105,2026-06-18T16:00:00,Center,phone,low,closed,43.2,29213
+R0106,2026-06-18T20:00:00,Center,web,medium,closed,62.6,14413
+R0107,2026-06-19T00:00:00,NORTH ,phone,high,closed,56.5,13193
+R0108,2026-06-19T04:00:00,North,mobile,high,open,70.4,15366
+R0109,2026-06-19T08:00:00,north,mobile,low,open,33.5,14136
+R0110,2026-06-19T12:00:00,Center,web,medium,closed,91.6,17344
+R0111,2026-06-19T16:00:00,Center,mobile,low,closed,52.3,31148
+R0112,2026-06-19T20:00:00,North,mobile,low,closed,37.4,18011
+R0113,2026-06-20T00:00:00, south,phone,high,open,,25818
+R0114,2026-06-20T04:00:00,North,web,medium,closed,42.4,19028
+R0115,2026-06-20T08:00:00,South,phone,low,open,71.0,22875
+R0116,2026-06-20T12:00:00,north,mobile,high,closed,38.2,21164
+R0117,2026-06-20T16:00:00,North,web,medium,closed,57.1,10582
+R0118,2026-06-20T20:00:00, center ,web,medium,closed,35.7,31209
+R0119,2026-06-21T00:00:00,Center,mobile,low,closed,3.0,18162
+R0120,2026-06-21T04:00:00,North,phone,low,closed,,
+R0121,2026-06-21T08:00:00,North,phone,medium,closed,48.8,14427
+R0122,2026-06-21T12:00:00,NORTH ,phone,high,closed,44.7,25340
+R0123,2026-06-21T16:00:00,NORTH ,phone,low,closed,,15871
+R0124,2026-06-21T20:00:00,NORTH ,web,high,open,101.2,25342
+R0125,2026-06-22T00:00:00,SOUTH,mobile,medium,closed,65.1,12845
+R0126,2026-06-22T04:00:00,north,phone,high,closed,26.4,17189
+R0127,2026-06-22T08:00:00,South,phone,medium,closed,79.7,8080
+R0128,2026-06-22T12:00:00,South,mobile,medium,closed,62.7,9186
+R0129,2026-06-22T16:00:00,NORTH ,mobile,low,closed,59.3,21126
+R0130,2026-06-22T20:00:00,CENTER,phone,medium,closed,31.3,8353
+R0131,2026-06-23T00:00:00,South,web,medium,closed,,25827
+R0132,2026-06-23T04:00:00,South,mobile,medium,closed,90.7,21618
+R0133,2026-06-23T08:00:00,north,web,medium,closed,88.5,16668
+R0134,2026-06-23T12:00:00, south,mobile,low,closed,25.4,20493
+R0135,2026-06-23T16:00:00,north,mobile,low,closed,,12975
+R0136,2026-06-23T20:00:00, south,web,medium,closed,105.6,17664
+R0137,2026-06-24T00:00:00,Center,web,low,closed,59.5,
+R0138,2026-06-24T04:00:00,CENTER,phone,high,open,,18204
+R0139,2026-06-24T08:00:00, south,mobile,high,closed,76.2,33789
+R0140,2026-06-24T12:00:00,north,phone,medium,closed,73.1,28639
+R0141,2026-06-24T16:00:00, center ,mobile,high,closed,11.0,18885
+R0142,2026-06-24T20:00:00, center ,web,high,closed,54.9,25504
+R0143,2026-06-25T00:00:00,North,web,low,closed,55.3,24034
+R0144,2026-06-25T04:00:00,north,web,high,closed,86.9,14184
+R0145,2026-06-25T08:00:00, south,phone,medium,closed,,13709
+R0146,2026-06-25T12:00:00,CENTER,phone,medium,closed,85.4,21003
+R0147,2026-06-25T16:00:00,Center,phone,high,closed,8.4,18031
+R0148,2026-06-25T20:00:00,Center,mobile,low,closed,54.2,15240
+R0149,2026-06-26T00:00:00,north,phone,medium,closed,45.2,17148
+R0150,2026-06-26T04:00:00,SOUTH,web,low,closed,,17785
+R0004,2026-06-01T20:00:00,SOUTH,phone,medium,closed,58.6,20832
+R0020,2026-06-04T12:00:00,north,web,medium,open,38.2,19829
+R0043,2026-06-08T08:00:00, center ,phone,medium,open,67.6,3267
+R0078,2026-06-14T04:00:00,SOUTH,web,low,closed,2200.0,14847
+R0111,2026-06-19T16:00:00,Center,mobile,low,closed,52.3,31148

@@ -1,0 +1,202 @@
+[
+  {
+    "customer_id": 1,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 2,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 3,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 4,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 5,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 6,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 7,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 8,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 9,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 10,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 11,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 12,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 13,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 14,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 15,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 16,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 17,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 18,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 19,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 20,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 21,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 22,
+    "city": "Astana",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 23,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 24,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 25,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 26,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 27,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 28,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 29,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 30,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 31,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 32,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 33,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 34,
+    "city": "Aktau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 35,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 36,
+    "city": "Astana",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 37,
+    "city": "Atyrau",
+    "segment": "small_business"
+  },
+  {
+    "customer_id": 38,
+    "city": "Atyrau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 39,
+    "city": "Aktau",
+    "segment": "individual"
+  },
+  {
+    "customer_id": 40,
+    "city": "Astana",
+    "segment": "individual"
+  }
+]

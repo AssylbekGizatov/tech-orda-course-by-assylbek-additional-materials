@@ -1,0 +1,48 @@
+{
+  "name": "Tech Orda W24 - Error Summary",
+  "nodes": [
+    {
+      "id": "028f7cae-bd96-5afb-9761-8a9d43a6c23c",
+      "name": "Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "125534df-24b3-5dee-af9a-e47894f025bf",
+      "name": "Sanitized Error Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const x=$input.first().json; return [{json:{workflow_name:x.workflow?.name ?? 'unknown',last_node:x.execution?.lastNodeExecuted ?? null,status:'failed',action:'inspect_execution_no_messages_sent'}}];"
+      }
+    }
+  ],
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Sanitized Error Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

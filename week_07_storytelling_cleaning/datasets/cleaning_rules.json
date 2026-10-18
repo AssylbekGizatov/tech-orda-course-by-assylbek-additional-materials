@@ -1,0 +1,9 @@
+{
+  "exact_duplicates": "Remove exact copies; conflicting request_id requires review.",
+  "response_minutes": "Parse numeric; nonpositive or unparseable -> missing; high positive values retained.",
+  "cost_kzt": "Parse numeric; negative or unparseable -> missing; zero is allowed.",
+  "created_at": "Parse ISO datetime; invalid -> NaT and quality flag.",
+  "district": "Strip whitespace and lowercase; map center/north/south to canonical labels.",
+  "outliers": "IQR rule is descriptive flag only; do not delete observations automatically.",
+  "imputation": "Sensitivity analysis only; do not treat filled observations as measured values."
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Tech Orda W24 - Fixture Validation",
+  "nodes": [
+    {
+      "id": "efe93d56-da72-559b-9c5a-a5be63702951",
+      "name": "Manual Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "63fe3de4-ed46-5290-94f2-1af9cc5a6426",
+      "name": "Synthetic Items",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return [{\"ticket_id\": \"N101\", \"category\": \"access\", \"minutes_open\": 120}, {\"ticket_id\": \"N102\", \"category\": \"billing\", \"minutes_open\": 35}, {\"ticket_id\": \"N103\", \"category\": \"schedule\", \"minutes_open\": 18}, {\"ticket_id\": \"N101\", \"category\": \"access\", \"minutes_open\": 120}, {\"ticket_id\": \"N104\", \"category\": \"other\", \"minutes_open\": -5}, {\"ticket_id\": \"\", \"category\": \"access\", \"minutes_open\": 2}, {\"ticket_id\": \"N105\", \"category\": \"other\", \"minutes_open\": 240}, {\"ticket_id\": \"N106\", \"category\": \"billing\", \"minutes_open\": 45}].map(row => ({json: row}));"
+      }
+    },
+    {
+      "id": "30f20370-32df-5730-a115-5df8b593374d",
+      "name": "Validate and Transform",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const seen = new Set();\nreturn $input.all().map(item => {\n  const x = item.json;\n  let error = null;\n  if (!/^N\\d{3}$/.test(String(x.ticket_id ?? ''))) error = 'invalid_id';\n  else if (!['access','billing','schedule','other'].includes(x.category)) error = 'invalid_category';\n  else if (!Number.isInteger(x.minutes_open) || x.minutes_open < 0) error = 'invalid_minutes';\n  else if (seen.has(x.ticket_id)) error = 'duplicate';\n  if (!error) seen.add(x.ticket_id);\n  return {json: {...x, status: error ? 'rejected' : 'accepted', error,\n    priority: error ? null : (x.minutes_open >= 60 ? 'high' : 'normal'),\n    provenance: 'author_synthetic_fixture'}};\n});"
+      }
+    },
+    {
+      "id": "13e365b5-474f-57d6-956e-d508420068d6",
+      "name": "Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const rows = $input.all().map(i=>i.json);\nconst accepted = rows.filter(x=>x.status === 'accepted');\nreturn [{json:{input_rows:rows.length,accepted_rows:accepted.length,rejected_rows:rows.length-accepted.length,\n  high_priority:accepted.filter(x=>x.priority==='high').length,\n  provenance:'synthetic_fixture',rows}}];"
+      }
+    }
+  ],
+  "connections": {
+    "Manual Start": {
+      "main": [
+        [
+          {
+            "node": "Synthetic Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Synthetic Items": {
+      "main": [
+        [
+          {
+            "node": "Validate and Transform",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate and Transform": {
+      "main": [
+        [
+          {
+            "node": "Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

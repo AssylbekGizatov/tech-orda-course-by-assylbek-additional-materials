@@ -1,0 +1,600 @@
+[
+  {
+    "week": 1,
+    "folder": "week_01_intro_ds_ai",
+    "title": "Введение в Data Science и AI",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 1,
+        "topic": "Экосистема DS/ML/AI, постановка задач и карьера",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 1,
+        "topic": "Jupyter, Colab, Git и воспроизводимый анализ",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "folder": "week_02_python_numpy",
+    "title": "Python и NumPy",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 2,
+        "topic": "Структуры данных, функции, list comprehension",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 2,
+        "topic": "NumPy: массивы, векторизация, broadcasting",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "folder": "week_03_pandas_files",
+    "title": "pandas и работа с файлами",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 2,
+        "topic": "pandas: индексы, фильтрация, группировки",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 2,
+        "topic": "CSV/JSON, объединение таблиц, проверка данных",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "folder": "week_04_sql_basics",
+    "title": "SQL: основы, JOIN и GROUP BY",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 3,
+        "topic": "SELECT, WHERE, агрегация и GROUP BY",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 3,
+        "topic": "JOIN и подзапросы",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "folder": "week_05_sql_windows_eda",
+    "title": "Оконные SQL-функции и начало EDA",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 3,
+        "topic": "Оконные функции и интеграция SQL с pandas",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 4,
+        "topic": "Описательная статистика, распределения и EDA",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "folder": "week_06_eda_visualization",
+    "title": "EDA: визуализация и корреляции",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 4,
+        "topic": "matplotlib, seaborn, plotly",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 4,
+        "topic": "Корреляции, групповые сравнения и ограничения выводов",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "folder": "week_07_storytelling_cleaning",
+    "title": "Data storytelling и очистка данных",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 4,
+        "topic": "Storytelling: от графика к обоснованному выводу",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 5,
+        "topic": "Пропуски, дубликаты и выбросы",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "folder": "week_08_preprocessing_pipelines",
+    "title": "Feature engineering и pipelines",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 5,
+        "topic": "Кодирование, масштабирование и новые признаки",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 5,
+        "topic": "ColumnTransformer, Pipeline и предотвращение утечек",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "folder": "week_09_linear_regression",
+    "title": "Линейная регрессия",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 6,
+        "topic": "Модель, MSE, градиентный спуск и решение least squares",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 6,
+        "topic": "Множественная регрессия, регуляризация и диагностика",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "folder": "week_10_logistic_knn",
+    "title": "Логистическая регрессия и kNN",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 6,
+        "topic": "Логистическая регрессия, вероятности и порог",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 6,
+        "topic": "kNN, расстояния и роль масштабирования",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "folder": "week_11_trees_svm",
+    "title": "Деревья решений и SVM",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 6,
+        "topic": "Деревья решений, impurity и глубина",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 6,
+        "topic": "SVM, margin и ядра",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "folder": "week_12_random_forest",
+    "title": "Ансамбли: Bagging и Random Forest",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 7,
+        "topic": "Bagging, Random Forest, bias/variance",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 7,
+        "topic": "OOB, устойчивость и подбор параметров",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "folder": "week_13_boosting_tuning",
+    "title": "Gradient Boosting, XGBoost и LightGBM",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 7,
+        "topic": "Градиентный бустинг, XGBoost и LightGBM",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 7,
+        "topic": "Подбор параметров и промежуточный проект",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "folder": "week_14_clustering_dimensions",
+    "title": "K-Means, DBSCAN, PCA и t-SNE",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 8,
+        "topic": "K-Means и DBSCAN",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 8,
+        "topic": "PCA, t-SNE и интерпретация проекций",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "folder": "week_15_evaluation_cv",
+    "title": "Метрики и кросс-валидация",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 9,
+        "topic": "Метрики классификации и регрессии",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 9,
+        "topic": "Кросс-валидация, overfitting и честное сравнение",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "folder": "week_16_explainability_nn",
+    "title": "Интерпретация моделей и введение в нейросети",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 9,
+        "topic": "SHAP, LIME и ограничения объяснений",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 10,
+        "topic": "Нейрон, слои, функции активации и loss",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "folder": "week_17_backprop_frameworks",
+    "title": "Backpropagation, Keras/TensorFlow и PyTorch",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 10,
+        "topic": "Backpropagation и градиентный спуск",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 10,
+        "topic": "Обучение сети в Keras/TensorFlow и PyTorch",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "folder": "week_18_dl_llm_intro",
+    "title": "Практика Deep Learning и принципы LLM",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 10,
+        "topic": "Валидация нейросети, регуляризация и воспроизводимость",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 11,
+        "topic": "Токены, attention, LLM и структура промпта",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "folder": "week_19_prompt_engineering",
+    "title": "Prompt Engineering",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 11,
+        "topic": "Zero-shot, few-shot и проверяемые объяснения",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 11,
+        "topic": "Системные инструкции, ошибки и оценка качества",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "folder": "week_20_gpt_api_chatbot",
+    "title": "GPT API и чат-бот на Python",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 12,
+        "topic": "Аутентификация, запросы, ответы и обработка ошибок",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 12,
+        "topic": "Простой чат-бот и история сообщений",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "folder": "week_21_context_memory",
+    "title": "Контекст и память чат-бота",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 12,
+        "topic": "Контекстное окно, память и retrieval",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 12,
+        "topic": "Тестирование, стоимость, приватность и интерфейс чат-бота",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "folder": "week_22_copilot_basics",
+    "title": "Microsoft Copilot Studio: основы",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 13,
+        "topic": "Создание агента, knowledge и инструкции",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 13,
+        "topic": "Топики, переменные и триггеры",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "folder": "week_23_copilot_integrations",
+    "title": "Copilot Studio: интеграции и оценка",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 13,
+        "topic": "Microsoft 365 и внешние источники данных",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 13,
+        "topic": "Actions, тестирование и публикация агента",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "folder": "week_24_n8n_workflows",
+    "title": "n8n: основы workflow",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 14,
+        "topic": "Триггеры, узлы, данные и выражения",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 14,
+        "topic": "HTTP API, базы данных и обработка ошибок",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "folder": "week_25_n8n_ai_agents",
+    "title": "n8n: AI-агент с инструментами",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 14,
+        "topic": "AI-ноды, agent, tools и память",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 14,
+        "topic": "End-to-end кейс и наблюдаемость",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "folder": "week_26_final_project",
+    "title": "Финальный проект и защита",
+    "academic_hours": 4,
+    "clock_minutes": 180,
+    "sessions": [
+      {
+        "module": 15,
+        "topic": "Завершение проекта, деплой и менторство",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 15,
+        "topic": "Защита и демонстрация результатов",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      }
+    ]
+  }
+]

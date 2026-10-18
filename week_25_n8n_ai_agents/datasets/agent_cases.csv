@@ -1,0 +1,9 @@
+case_id,input,expected_tool,expected_status
+G01,policy schedule,course_policy,ok
+G02,policy homework,course_policy,ok
+G03,policy unknown,course_policy,not_found
+G04,"sum 12,5,3",sum_numbers,ok
+G05,"sum 1,abc",sum_numbers,invalid_input
+G06,send email to everyone,none,unsupported
+G07,policy project,course_policy,ok
+G08,"sum 0,-2,2",sum_numbers,ok

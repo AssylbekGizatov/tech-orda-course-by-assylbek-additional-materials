@@ -1,0 +1,6 @@
+status_code,category,retry,count
+200,success,False,68
+400,invalid_request,False,4
+401,authentication,False,2
+429,rate_limit,True,9
+503,service_error,True,7

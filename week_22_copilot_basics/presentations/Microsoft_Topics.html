@@ -1,0 +1,1934 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Create and edit topics - Microsoft Copilot Studio | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Use topics in Microsoft Copilot Studio for an intuitive, no-code way to create an agent that can help answer user questions, perform actions, and solve issues." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Create and edit topics - Microsoft Copilot Studio" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics" />
+			<meta property="og:description" content="Use topics in Microsoft Copilot Studio for an intuitive, no-code way to create an agent that can help answer user questions, perform actions, and solve issues." />
+			<meta name="platform_id" content="e308eca1-99e4-f543-4de6-15c6c009a813" /> <meta name="scope" content="Microsoft Copilot Studio" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MicrosoftCopilotStudio" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/microsoft-copilot-studio/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity" />
+	
+		<meta name="search.app" content="capaedac-pva" />
+	
+		<meta name="search.app" content="powervirtualagents-docs" />
+	
+		<meta name="recommendations" content="true" />
+	
+		<meta name="ms.service" content="copilot-studio" />
+	
+		<meta name="ms.collection" content="bap-ai-copilot" />
+	
+		<meta name="ms.update-cycle" content="180-days" />
+	
+		<meta name="ms.date" content="2026-07-06T00:00:00Z" />
+	
+		<meta name="ms.topic" content="how-to" />
+	
+		<meta name="author" content="garypretty" />
+	
+		<meta name="ms.author" content="gapretty" />
+	
+		<meta name="ms.reviewer" content="sbolduc" />
+	
+		<meta name="manager" content="rickcatalano" />
+	
+		<meta name="ms.custom" content="authoring, topics, variables, ceX" />
+	
+		<meta name="document_id" content="2a48d9a9-52c4-72b9-312a-5d27e7066310" />
+	
+		<meta name="document_version_independent_id" content="2a48d9a9-52c4-72b9-312a-5d27e7066310" />
+	
+		<meta name="updated_at" content="2026-08-03T14:59:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/businessapps-copilot-docs-pr/blob/live/copilot-studio/authoring-create-edit-topics.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/businessapps-copilot-docs-pr/blob/d3dd478d56933bdfd2dc0d5e562fd9546ab9823e/copilot-studio/authoring-create-edit-topics.md" />
+	
+		<meta name="git_commit_id" content="d3dd478d56933bdfd2dc0d5e562fd9546ab9823e" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="Learn.copilot-studio" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="word_count" content="2962" />
+	
+		<meta name="asset_id" content="authoring-create-edit-topics" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="copilot-studio/authoring-create-edit-topics.md" />
+	
+		<meta name="previous_tlsh_hash" content="117C5972442EDB20AEC12F8E345EEA6571F48885BDB49FC80622B0F1D29D2DE357249D46E71BA70103B6025B0363994E69FACF35907D135B0DB3B8AC82683265619D3F73D6" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/businessapps-copilot-docs-pr/blob/live/copilot-studio/authoring-create-edit-topics.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/46e3c7c4-fe77-4a6e-b40a-44c569819fa5" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/1ae5c491-970a-4062-8301-6336e69f9026" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/c389ea6b-b6a0-46df-93a1-1e21f25e19e7" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/d0c6fab8-2d7d-4bb0-bf40-589e08d7c132" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/f2c3e52e-3667-4e8a-bf11-20b9eaccdc8c" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/19ada1b6-705b-4ed7-aad0-bffd1bd03dfa" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03574.8308-9505b1c8/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03574.8308-9505b1c8/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href=""
+			data-original_content_git_url="https://github.com/MicrosoftDocs/businessapps-copilot-docs-pr/blob/live/copilot-studio/authoring-create-edit-topics.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/copilot-studio/authoring-create-edit-topics.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="create-and-edit-topics">Create and edit topics</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><div class="NOTE">
+<p>Note</p>
+<p>This article describes features used in agents or agent flows powered by the <a href="harnesses-overview#standard-harness" data-linktype="relative-path">standard harness</a>.</p>
+</div>
+<p>In Copilot Studio, a topic defines how an agent conversation progresses.</p>
+<p>To author topics, you can <a href="nlu-authoring" data-linktype="relative-path">describe what you want and have AI create the topic for you</a>, or create topics from scratch.</p>
+<p>For more information about agent and topic limits, see <a href="requirements-quotas" data-linktype="relative-path">Quotas, limits, app registration, certificates, and configuration values</a>.</p>
+<h2 id="selecting-the-right-topic-to-respond-to-a-user">Selecting the right topic to respond to a user</h2>
+<p>To determine how to respond to users, agents use either <a href="advanced-generative-actions" data-linktype="relative-path">generative orchestration</a> or classic orchestration.</p>
+<p>With <em>generative orchestration,</em> an agent answers user queries or responds to event triggers by selecting the most appropriate combination of topics, tools, and knowledge. Each topic has a description that informs the agent of its purpose. Learn more about <a href="advanced-generative-actions#authoring-descriptions" data-linktype="relative-path">authoring descriptions</a>.</p>
+<p>In agents configured to use <em>classic orchestration,</em> each topic has a set of <em>trigger phrases</em>—phrases, keywords, and questions that a customer is likely to use for queries related to a specific issue. These agents use natural language understanding, the customer's message, and the topic's trigger phrases to find the best topic. The customer input doesn't need to exactly match a topic trigger phrase to trigger the topic. For example, a topic about store hours might have the trigger phrase "check store hours." If a customer enters "see store opening hours," this phrase triggers your store hours topic. Learn more about <a href="guidance/trigger-phrases-best-practices" data-linktype="relative-path">authoring trigger phrases</a>.</p>
+<h2 id="topics-in-copilot-studio">Topics in Copilot Studio</h2>
+<p>In Copilot Studio, a <em>topic</em> represents a portion of a conversation between a user and an agent. You define topics on an <em>authoring canvas.</em> A topic contains one or more <em>nodes,</em> which together determine the conversational paths that a topic can take. Each node performs an action, such as sending a message or asking a question.</p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_webApp" role="tab" aria-controls="tabpanel_1_webApp" data-tab="webApp" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Web app</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_teamsPlan" role="tab" aria-controls="tabpanel_1_teamsPlan" data-tab="teamsPlan" tabindex="-1" data-linktype="self-bookmark">Teams plan</a>
+</li>
+</ul>
+<section id="tabpanel_1_webApp" role="tabpanel" data-tab="webApp">
+
+<p>An agent can have two types of topics: <em>system</em> and <em>custom</em> topics. Every new agent starts with a set of predefined system and custom topics.</p>
+<ul>
+<li><p>System topics support essential behaviors, such as a custom request to speak to a person or end the conversation. Some system topics have trigger phrases, which you can customize to fit your agent's needs.</p>
+<ul>
+<li>You can't create system topics.</li>
+<li>You can't delete system topics, but you can turn them off.</li>
+<li>You can make changes to system topics. However, you should wait until you're comfortable creating complete agent experiences before you start editing system topics.</li>
+</ul>
+<p>For more information, see <a href="authoring-system-topics" data-linktype="relative-path">Use system topics</a>.</p>
+</li>
+<li><p>The predefined custom topics cover common behaviors, such as greeting a customer, ending a conversation, or restarting conversation.</p>
+<ul>
+<li>You can make changes to the predefined custom topics or remove them from your agent entirely.</li>
+<li>All topics that you create are custom topics.</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="tabpanel_1_teamsPlan" role="tabpanel" data-tab="teamsPlan" aria-hidden="true" hidden="hidden">
+
+<p>When you create a bot, Copilot Studio generates several topics for you. The automatically created topics fall into these categories:</p>
+<ul>
+<li><p><a href="authoring-template-topics" data-linktype="relative-path">Lesson topics</a> help you understand simple to complex ways to use nodes to create bot conversations.</p>
+<p>You can edit lesson topics or delete them.</p>
+</li>
+<li><p><a href="authoring-system-topics" data-linktype="relative-path">System topics</a> are topics you need during a bot conversation.</p>
+<p>You can't delete or disable system topics or edit their trigger phrases. However, you can customize the nodes on the authoring canvas. Don't customize these topics until you're comfortable creating an end-to-end bot conversation.</p>
+</li>
+</ul>
+<div class="NOTE">
+<p>Note</p>
+<p><strong>Suggested topics</strong> (legacy)</p>
+<p>In a chatbot where the now deprecated topic suggestion feature was used, suggested topics might still be pending review. You can see these topics on a separate <strong>Suggested topics</strong> tab in the <strong>Topics</strong> list for your agent. You can review them and add them to your chatbot if desired.</p>
+</div>
+</section>
+</div>
+<h2 id="node-types">Node types</h2>
+<p>The following types of node are available.</p>
+<div class="tabGroup" id="tabgroup_2">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2_webApp" role="tab" aria-controls="tabpanel_2_webApp" data-tab="webApp" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Web app</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_teamsPlan" role="tab" aria-controls="tabpanel_2_teamsPlan" data-tab="teamsPlan" tabindex="-1" data-linktype="self-bookmark">Teams plan</a>
+</li>
+</ul>
+<section id="tabpanel_2_webApp" role="tabpanel" data-tab="webApp">
+
+<table>
+<thead>
+<tr>
+<th>Node type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="authoring-send-message" data-linktype="relative-path">Message</a> node</td>
+<td>Send the customer a message.</td>
+</tr>
+<tr>
+<td><a href="authoring-ask-a-question" data-linktype="relative-path">Question</a> node</td>
+<td>Ask the customer a question.</td>
+</tr>
+<tr>
+<td><a href="authoring-ask-with-adaptive-card" data-linktype="relative-path">Adaptive Card</a> node</td>
+<td>Show an interactive card with one or more response buttons or input fields.</td>
+</tr>
+<tr>
+<td><a href="authoring-using-conditions" data-linktype="relative-path">Condition</a> node</td>
+<td>Branch your conversation based on a condition.</td>
+</tr>
+<tr>
+<td><a href="authoring-variables" data-linktype="relative-path">Variable management</a> nodes</td>
+<td>Set a value, parse a value, or clear variables (including the ability to clear the conversation history used by the agent).</td>
+</tr>
+<tr>
+<td><a href="authoring-topic-management" data-linktype="relative-path">Topic management</a></td>
+<td>Redirect the conversation, transfer the user, or end the topic or conversation.</td>
+</tr>
+<tr>
+<td><a href="advanced-flow-create" data-linktype="relative-path">Tool</a> nodes</td>
+<td>Call a flow like Power Automate or Excel Online, or use a connector or another type of tool.</td>
+</tr>
+<tr>
+<td>Advanced</td>
+<td>Send <a href="nlu-boost-node" data-linktype="relative-path">generative answers</a>, <a href="authoring-http-node" data-linktype="relative-path">HTTP requests</a>, <a href="authoring-send-event-activities" data-linktype="relative-path">events</a>, and more.</td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<p>Tip</p>
+<p>Rename nodes to make them easier to identify. Select the node's name field to update the name directly, or select the three dots (<strong>…</strong>) of the node and select <strong>Rename</strong> from the menu. You can also rename nodes in the <a href="authoring-create-edit-topics#edit-topics-by-using-the-code-editor" data-linktype="relative-path">code editor</a>.</p>
+<p>It's not possible to rename <strong>Trigger</strong> nodes and <strong>Go to step</strong> nodes.</p>
+<p>Node names can be up to 500 characters in length.</p>
+</div>
+</section>
+<section id="tabpanel_2_teamsPlan" role="tabpanel" data-tab="teamsPlan" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th>Node type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#ask-a-question" data-linktype="self-bookmark">Question</a> node</td>
+<td>Ask the customer a question.</td>
+</tr>
+<tr>
+<td><a href="#add-a-condition" data-linktype="self-bookmark">Condition</a> node</td>
+<td>Branch your conversation based on a condition. <em>Only possible in topics where variables are available.</em></td>
+</tr>
+<tr>
+<td><a href="#call-a-tool" data-linktype="self-bookmark">Tool</a> nodes</td>
+<td>Call a Power Automate flow.</td>
+</tr>
+<tr>
+<td><a href="#show-a-message" data-linktype="self-bookmark">Message</a> node</td>
+<td>Send the customer a message.</td>
+</tr>
+<tr>
+<td><a href="#redirect-to-another-topic" data-linktype="self-bookmark">Redirect</a> node</td>
+<td>Redirect the conversation, transfer the user, or end the topic or conversation.</td>
+</tr>
+<tr>
+<td><a href="#end-the-conversation" data-linktype="self-bookmark">End</a> node</td>
+<td>End the conversation. <em>Only possible at the bottom of a conversation path.</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<h2 id="create-a-topic">Create a topic</h2>
+<div class="tabGroup" id="tabgroup_3">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_3_webApp" role="tab" aria-controls="tabpanel_3_webApp" data-tab="webApp" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Web app</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_3_teamsPlan" role="tab" aria-controls="tabpanel_3_teamsPlan" data-tab="teamsPlan" tabindex="-1" data-linktype="self-bookmark">Teams plan</a>
+</li>
+</ul>
+<section id="tabpanel_3_webApp" role="tabpanel" data-tab="webApp">
+
+<ol>
+<li><p>Go to the <strong>Topics</strong> page for your agent. For better visibility, close the test panel.</p>
+</li>
+<li><p>Select <strong>Add a topic</strong>, and then select <strong>From blank</strong>.</p>
+<p>A <strong>Trigger</strong> node appears on an otherwise blank topic authoring canvas.</p>
+</li>
+<li><p>Select the three dots (<strong>…</strong>) of the <strong>Trigger</strong> node, and then select <strong>Properties</strong>. The <strong>On Recognized Intent properties</strong> panel appears.</p>
+</li>
+<li><p>In <strong>On Recognized Intent properties</strong>, select the <strong>Phrases</strong> area. The <strong>Phrases</strong> secondary panel appears.</p>
+</li>
+<li><p>Under <strong>Add phrases</strong>, enter a trigger phrase for your topic.</p>
+<p>Your agent needs 5 to 10 trigger phrases to train the AI to understand your customers' responses. To add more trigger phrases, you can either:</p>
+<ul>
+<li>Select the <strong>Add</strong> icon <img src="media/authoring-create-edit-topics/icon-add-20px.png" role="presentation" data-linktype="relative-path">
+ next to the text field, and enter the desired phrase.</li>
+<li>Paste a set of trigger phrases, each one on a separate line, and select <strong>Enter</strong>.</li>
+<li>Type a set of trigger phrases, pressing <strong>Shift</strong>+<strong>Enter</strong> after each one to place it on a separate line, and select <strong>Enter</strong>.</li>
+<li><a href="#upload-trigger-phrases-for-a-topic" data-linktype="self-bookmark">Upload a file</a> listing trigger phrases you want to add for this topic.</li>
+</ul>
+<p>You can include punctuation in a trigger phrase, but it's best to use short phrases rather than long sentences.</p>
+</li>
+<li><p>Select <strong>Details</strong> on the toolbar to open the <strong>Topic details</strong> panel.</p>
+</li>
+<li><p>Add details for your topic:</p>
+<ul>
+<li>Enter a name to identify the topic, such as "Store hours." The <strong>Topics</strong> page lists all the topics defined in your agent by this name.</li>
+<li>If desired, enter a display name to show to the customer when the agent can't determine which topic matches the customer's message.</li>
+<li>If desired, use the <strong>Description</strong> field to describe the purpose of the topic for yourself and other agent makers on your team. Customers never see topic descriptions.</li>
+</ul>
+</li>
+<li><p>Select <strong>Save</strong> on the top menu bar to save your topic.</p>
+</li>
+</ol>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Avoid using periods (<code>.</code>) in your topic names. It isn't possible to export a solution that contains an agent with periods in the name of any of its topics.</p>
+</div>
+<h3 id="upload-trigger-phrases-for-a-topic">Upload trigger phrases for a topic</h3>
+<p>From the <strong>Phrases</strong> panel of a topic's <strong>Trigger</strong> node, you can add or replace the set of trigger phrases associated with the topic.</p>
+<ol>
+<li><p>Prepare a text file (maximum 3 MB) listing all trigger phrases you want to add for your topic, with each phrase on a separate line.</p>
+</li>
+<li><p>Under <strong>Add phrases</strong>, select <strong>upload a file</strong>.</p>
+</li>
+<li><p>In <strong>Upload a file</strong>, select the desired option:</p>
+<ul>
+<li>If you want to add new trigger phrases for your topic, select <strong>Append</strong>.</li>
+<li>To replace all existing trigger phrases with the list from your file, select <strong>Replace</strong>.</li>
+</ul>
+</li>
+<li><p>Drop your file onto the window. Alternatively, select <strong>click to browse</strong>, navigate to your file, and select it.</p>
+</li>
+<li><p>Review the trigger phrases that appear, and select <strong>Add</strong>.</p>
+</li>
+<li><p>Save your topic.</p>
+</li>
+</ol>
+<h3 id="download-trigger-phrases-for-a-topic">Download trigger phrases for a topic</h3>
+<p>From the <strong>Phrases</strong> panel of a topic's <strong>Trigger</strong> node, you can download the set of trigger phrases associated with the topic.</p>
+<ol>
+<li><p>Under <strong>Add phrases</strong>, select <strong>download</strong>.</p>
+</li>
+<li><p>Save the resulting text file, or open it in a text editor to review its content. Each trigger phrase appears on a separate line.</p>
+</li>
+</ol>
+</section>
+<section id="tabpanel_3_teamsPlan" role="tabpanel" data-tab="teamsPlan" aria-hidden="true" hidden="hidden">
+
+<ol>
+<li><p>Go to the <strong>Topics</strong> list for your chatbot.</p>
+</li>
+<li><p>Select <strong>New topic</strong> &gt; <strong>From blank</strong>. Copilot Studio automatically inserts a <strong>Trigger</strong> node and a blank <strong>Message</strong> node. The <strong>Trigger phrases</strong> panel appears.</p>
+</li>
+<li><p>Add the trigger phrases you want for your topic.</p>
+<p><span class="mx-imgBorder">
+<a href="media/authoring-create-edit-topics/topics-details-triggers.png#lightbox" data-linktype="relative-path">
+<img src="media/authoring-create-edit-topics/topics-details-triggers.png" alt="Screenshot of the topic authoring canvas, showing where to add trigger phrases." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>You can specify more than one trigger phrase for a topic, using a new line for each phrase. You can include punctuation in a trigger phrase, but it's best to use short phrases rather than long sentences.</p>
+</li>
+<li><p>Enter the message you want, and <a href="#edit-a-topic" data-linktype="self-bookmark">add more nodes</a> as desired.</p>
+</li>
+<li><p>In the top bar, edit the title of your topic to give it a name.</p>
+</li>
+<li><p>Select the <strong>Details</strong> icon. Here you can alternatively edit the <strong>Name</strong> and add a <strong>Display name</strong> and a <strong>Description</strong>.</p>
+<ul>
+<li>The <strong>Display name</strong> tells the bot which topic the person is asking about.</li>
+<li>The <strong>Description</strong> describes the purpose of the topic for yourself and other bot makers. This description isn't shown to users.</li>
+</ul>
+</li>
+<li><p>Select <strong>Save</strong> to add the topic to the topics list.</p>
+</li>
+</ol>
+</section>
+</div>
+<h2 id="edit-a-topic">Edit a topic</h2>
+<div class="tabGroup" id="tabgroup_4">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_4_webApp" role="tab" aria-controls="tabpanel_4_webApp" data-tab="webApp" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Web app</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_4_teamsPlan" role="tab" aria-controls="tabpanel_4_teamsPlan" data-tab="teamsPlan" tabindex="-1" data-linktype="self-bookmark">Teams plan</a>
+</li>
+</ul>
+<section id="tabpanel_4_webApp" role="tabpanel" data-tab="webApp">
+
+<p>When you create a topic, a <strong>Trigger</strong> node automatically appears on the authoring canvas. You can then add different types of nodes to achieve the desired conversation path for your topic.</p>
+<p>To add a node after another node or between two nodes on your topic authoring canvas:</p>
+<ol>
+<li><p>Select the <strong>Add node</strong> icon <img src="media/authoring-create-edit-topics/icon-add-node-20px.png" role="presentation" data-linktype="relative-path">
+ under the node after which you want to add a new node.</p>
+</li>
+<li><p>Select the desired <a href="#node-types" data-linktype="self-bookmark">node type</a> from the list that appears.</p>
+</li>
+</ol>
+<h3 id="delete-a-node">Delete a node</h3>
+<p>Select the three dots (<strong>…</strong>) of the node you want to delete, and then select <strong>Delete</strong>.</p>
+<h3 id="controls-for-editing-nodes-on-the-canvas">Controls for editing nodes on the canvas</h3>
+<p>Use the controls on the toolbar to cut, copy, paste, and delete the selected node or selected adjacent nodes.</p>
+<p>The toolbar also has a control to undo edits. Select the <strong>Undo</strong> icon <img src="media/authoring-create-edit-topics/undo-icon.png" role="presentation" data-linktype="relative-path">
+ and select:</p>
+<ul>
+<li><strong>Undo</strong> to undo the most recent change</li>
+<li><strong>Undo to last save</strong> to revert all actions back to the last save</li>
+<li><strong>Redo</strong> to redo the previous action</li>
+</ul>
+<h3 id="paste-nodes">Paste nodes</h3>
+<p>After you use the <strong>Cut</strong> or <strong>Copy</strong> tools to place one or more nodes on the clipboard, you can paste them on the canvas in two ways:</p>
+<ul>
+<li><p>If you select a node and then select <strong>Paste</strong>, the nodes on the clipboard are inserted after the selected node.</p>
+</li>
+<li><p>If you select the "<strong>+</strong>" to see the <em>Add node</em> menu, then select <strong>Paste</strong>, the node on the clipboard is inserted at that location.</p>
+</li>
+</ul>
+<h3 id="add-input-and-output-parameters-for-a-topic">Add input and output parameters for a topic</h3>
+<p>Topics can have input and output parameters. When a topic <a href="authoring-topic-management#redirect-to-another-topic" data-linktype="relative-path">redirects to another topic</a>, you can use these parameters to pass information between the topics.</p>
+<p>Additionally, if your agent uses <a href="advanced-generative-actions" data-linktype="relative-path">generative orchestration</a>, it can automatically fill topic inputs from the conversation context, or after generating questions to gather values from users. This behavior is similar to how generative slot filling works for tools.</p>
+<p>Learn more in <a href="advanced-managing-topic-inputs-outputs" data-linktype="relative-path">Manage topic inputs and outputs</a>.</p>
+<h3 id="edit-topics-by-using-the-code-editor">Edit topics by using the code editor</h3>
+<p>The code editor shows the topic in <a href="https://yaml.org/" data-linktype="external">YAML</a>, a markup language that's easy to read and understand. Use the code editor to copy and paste topics from other agents—even ones created by other authors.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Designing a topic entirely in the code editor and pasting complex topics isn't fully supported.</p>
+</div>
+<p>In this example, you copy and paste YAML into the code editor to quickly add a topic that asks the customer for shipping information.</p>
+<ol>
+<li><p>On the <strong>Topics</strong> page, select <strong>Add a topic</strong> &gt; <strong>From blank</strong>.</p>
+</li>
+<li><p>In the upper-right corner of the authoring canvas, select <strong>More</strong>, and then select <strong>Open code editor</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/authoring-create-edit-topics/code-editor-open.png" alt="Screenshot of how to open the code editor for a topic." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select and delete the contents of the code editor. Then copy and paste the following YAML code:</p>
+<pre><code class="lang-yaml">kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Lesson 3 - A topic with a condition, variables and a prebuilt entity
+    triggerQueries:
+      - Buy items
+      - Buy online
+      - Buy product
+      - Purchase item
+      - Order product
+
+  actions:
+    - kind: SendMessage
+      id: Sjghab
+      message: I am happy to help you place your order.
+
+    - kind: Question
+      id: eRH3BJ
+      alwaysPrompt: false
+      variable: init:Topic.State
+      prompt: To what state will you be shipping?
+      entity: StatePrebuiltEntity
+
+    - kind: ConditionGroup
+      id: sEzulE
+      conditions:
+        - id: pbR5LO
+          condition: =Topic.State = "California" || Topic.State = "Washington" || Topic.State     = "Oregon"
+
+      elseActions:
+        - kind: SendMessage
+          id: X7BFUC
+          message: There will be an additional shipping charge of $27.50.
+
+        - kind: Question
+          id: 6lyBi8
+          alwaysPrompt: false
+          variable: init:Topic.ShippingRateAccepted
+          prompt: Is that acceptable?
+          entity: BooleanPrebuiltEntity
+
+        - kind: ConditionGroup
+          id: 9BR57P
+          conditions:
+            - id: BW47C4
+              condition: =Topic.ShippingRateAccepted = true
+
+          elseActions:
+            - kind: SendMessage
+              id: LMwySU
+              message: Thank you and please come again.
+</code></pre>
+</li>
+<li><p>Select <strong>Save</strong>, and then select <strong>Close code editor</strong>. Notice the conditional logic that follows some of the <strong>Question</strong> nodes.</p>
+<p><span class="mx-imgBorder">
+<a href="media/authoring-create-edit-topics/code-editor-conversation.png#lightbox" data-linktype="relative-path">
+<img src="media/authoring-create-edit-topics/code-editor-conversation.png" alt="Screenshot of a conversation created from YAML in the Copilot Studio code editor." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+</ol>
+</section>
+<section id="tabpanel_4_teamsPlan" role="tabpanel" data-tab="teamsPlan" aria-hidden="true" hidden="hidden">
+
+<p>In the <strong>Topics</strong> list for your chatbot, select the topic you want to edit. You see the topic's trigger phrases. Here you define the conversation path between a customer and the agent.</p>
+<p>Topics have some nodes that are created automatically. You can edit these nodes just as you would edit other nodes.</p>
+<ul>
+<li><p>To add a node, select the <strong>Add node</strong> icon <img src="media/authoring-create-edit-topics/icon-add-node-20px.png" role="presentation" data-linktype="relative-path">
+ under the node after which you want to add a new node, and select the desired <a href="#node-types" data-linktype="self-bookmark">node type</a> from the list that appears.</p>
+</li>
+<li><p>To delete a node, select the three dots (<strong>…</strong>) of the node you want to delete and select <strong>Delete</strong>.</p>
+</li>
+<li><p>To change the paths between nodes, drag the small circle on top of the node—its node anchor—to a new location in the canvas. The dotted line represents the original path.</p>
+</li>
+</ul>
+<h3 id="ask-a-question">Ask a question</h3>
+<p>When you select <strong>Ask a question</strong> from the <strong>Add node</strong> menu, a new <strong>Question</strong> node appears.</p>
+<p><span class="mx-imgBorder">
+<img src="media/authoring-create-edit-topics/topics-question.png" alt="Screenshot of a new question node." data-linktype="relative-path">
+</span>
+</p>
+<ol>
+<li><p>Enter the question you want to ask.</p>
+<p>For example, if the user wants to know store hours, the chatbot might ask "Which store location do you need?"</p>
+</li>
+<li><p>Under <strong>Identify</strong>, select an option for the user's response, such as <strong>Multiple choice options</strong>.</p>
+<p>This option determines what the bot should listen for when the user responds. For more information, see <a href="advanced-entities-slot-filling#use-entities-in-a-conversation" data-linktype="relative-path">Use entities in a conversation</a>.</p>
+</li>
+<li><p>Under <strong>Options for user</strong>, enter expected responses to the bot's question.</p>
+<p>For example, if you chose <strong>Multiple choice options</strong> in <strong>Identify</strong>, the options might include store locations such as <em>Seattle</em>, <em>Bellevue</em>, or <em>Kirkland</em>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/authoring-create-edit-topics/adding-options-for-question-node.png" alt="Screenshot of possible options for the user based on the multiple choice selection in Identify." data-linktype="relative-path">
+</span>
+</p>
+<p>Copilot Studio automatically creates a conditional path for each option. You can add nodes to the branching logic, and specify how the bot should respond for each path or value.</p>
+<p>During a conversation, each choice appears as a button in the chat, but users can also type their answer.</p>
+</li>
+<li><p>(Optional) Rename the variable that holds the user response, and configure its properties. For more information, see <a href="authoring-variables" data-linktype="relative-path">Work with variables</a>.</p>
+</li>
+</ol>
+<h3 id="add-a-condition">Add a condition</h3>
+<p>In topics where <a href="authoring-variables-about" data-linktype="relative-path">variables</a> are available, you can add branching logic based on variable values. For example, if you set up <a href="advanced-end-user-authentication" data-linktype="relative-path">user authentication</a>, you might want your chatbot to show a different message if the user is signed in.</p>
+<p>When you select <strong>Add a condition</strong> from the <strong>Add node</strong> menu, a menu appears.</p>
+<ul>
+<li>To add a path based on a specific variable value, select <strong>Branch based on a condition</strong>, and configure the desired condition.</li>
+<li>To add the path that covers all other values, select <strong>Branch for all other conditions</strong>.</li>
+</ul>
+<h3 id="call-a-tool">Call a tool</h3>
+<p>To <a href="advanced-flow" data-linktype="relative-path">call Power Automate flows</a> or <a href="advanced-end-user-authentication" data-linktype="relative-path">insert authentication nodes</a>, select <strong>Call a tool</strong> from the <strong>Add node</strong> menu, and select the desired tool or create a new one.</p>
+<p>If your bot has <a href="configuration-hand-off-omnichannel#voice-based-capabilities" data-linktype="relative-path">voice-based capabilities</a>, more tools are available.</p>
+<h3 id="show-a-message">Show a message</h3>
+<p>When you select <strong>Show a message</strong> from the <strong>Add node</strong> menu, a new <strong>Message</strong> node appears.</p>
+<p>Enter the message you want the bot to say in the text box. You can apply some basic formatting, such as bold, italics, ordered and unordered lists, and hyperlinks. You can also <a href="authoring-variables" data-linktype="relative-path">use variables</a> that you define elsewhere in your bot conversation.</p>
+<h3 id="redirect-to-another-topic">Redirect to another topic</h3>
+<p>When you select <strong>Redirect to another topic</strong> from the <strong>Add node</strong> menu, a list of topics appears.</p>
+<p>Select the topic where the bot should divert the conversation. For example, you might send the user to a topic about the closure of a store if they ask about the store's hours.</p>
+<p>A <strong>Redirect</strong> node appears.</p>
+<p>You can consider the redirected topic as a subtopic. You can insert more nodes under the <strong>Redirect</strong> node. When the conversation path for the subtopic finishes, the bot returns to the original topic. The bot then follows the nodes that are under the subtopic's node.</p>
+<p>However, if you redirect to any of the following <a href="authoring-system-topics" data-linktype="relative-path">system topics</a>, the entire conversation ends:</p>
+<ul>
+<li>End of Conversation</li>
+<li>Confirmed Success</li>
+<li>Confirmed Failure</li>
+<li>Goodbye</li>
+<li>Escalate</li>
+<li>Start over (also resets any <a href="authoring-variables-bot" data-linktype="relative-path">global variables</a>)</li>
+</ul>
+<h3 id="end-the-conversation">End the conversation</h3>
+<p>When the conversation ends, you can add a survey that asks the user if their question or issue was answered or resolved. The response is collected on the <a href="analytics-csat" data-linktype="relative-path">customer satisfaction analytics page</a>.</p>
+<p>If you're using a suitable customer service portal, such as Omnichannel for Customer Service, you can also <a href="advanced-hand-off" data-linktype="relative-path">hand off the conversation to a live agent</a>.</p>
+<p>At the end of a conversation path that resolves an issue or answers a question, after you select <strong>End the conversation</strong> from the <strong>Add node</strong> menu, a menu appears:</p>
+<ul>
+<li><p>To end with a customer satisfaction survey, select <strong>End with survey</strong>.</p>
+</li>
+<li><p>To insert a handoff node that links with your <a href="configuration-hand-off-omnichannel" data-linktype="relative-path">configured handoff product</a>, select <strong>Transfer to agent</strong>. Optionally, enter a private message for the customer service representative.</p>
+</li>
+</ul>
+</section>
+</div>
+<h2 id="test-and-publish">Test and publish</h2>
+<div class="tabGroup" id="tabgroup_5">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_5_webApp" role="tab" aria-controls="tabpanel_5_webApp" data-tab="webApp" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Web app</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5_teamsPlan" role="tab" aria-controls="tabpanel_5_teamsPlan" data-tab="teamsPlan" tabindex="-1" data-linktype="self-bookmark">Teams plan</a>
+</li>
+</ul>
+<section id="tabpanel_5_webApp" role="tabpanel" data-tab="webApp">
+
+<p><a href="authoring-test-bot" data-linktype="relative-path">Test your agent</a> when you make changes to your topics, to make sure everything works as expected.</p>
+<p>Once you're satisfied, <a href="publication-fundamentals-publish-channels" data-linktype="relative-path">publish your agent to the desired channels</a>.</p>
+</section>
+<section id="tabpanel_5_teamsPlan" role="tabpanel" data-tab="teamsPlan" aria-hidden="true" hidden="hidden">
+
+<p>Whenever you make changes to your topics, <a href="authoring-test-bot" data-linktype="relative-path">test your bot</a> to ensure everything works as expected.</p>
+<p>Once you're satisfied, <a href="publication-fundamentals-publish-channels" data-linktype="relative-path">publish it to the desired channels</a>.</p>
+</section>
+</div>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-07-06T08:00:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-07-06
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>
