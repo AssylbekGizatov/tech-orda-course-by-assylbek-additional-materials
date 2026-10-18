@@ -1,0 +1,21 @@
+{
+  "id": "fixture-completion-001",
+  "object": "chat.completion",
+  "model": "fixture-not-a-real-model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Train обучает модель; test оценивает обобщение."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 14,
+    "total_tokens": 44
+  },
+  "_provenance": "author_constructed_fixture_not_api_run"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Tech Orda W24 - Postgres Read Only",
+  "nodes": [
+    {
+      "id": "efe93d56-da72-559b-9c5a-a5be63702951",
+      "name": "Manual Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "46c734bd-a2e6-5123-bda9-c06221907c35",
+      "name": "Query Input",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return [{json:{category:'billing'}}];"
+      }
+    },
+    {
+      "id": "a6af0d42-40ca-552b-b11a-0ec5f12a5ae5",
+      "name": "Read Postgres",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT ticket_id, category, minutes_open FROM course_tickets WHERE category = $1 ORDER BY ticket_id;",
+        "options": {
+          "queryReplacement": "={{ [$json.category] }}"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Manual Start": {
+      "main": [
+        [
+          {
+            "node": "Query Input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Query Input": {
+      "main": [
+        [
+          {
+            "node": "Read Postgres",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

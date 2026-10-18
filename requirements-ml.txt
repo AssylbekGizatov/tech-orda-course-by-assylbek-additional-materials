@@ -1,0 +1,22 @@
+# Add at weeks 13, 16, and 17. Includes everything in the core profile.
+-r requirements-core.txt
+
+# Official CPU wheels. The verified reference platform is Linux x86_64/Python 3.12.
+# No CUDA toolkit or GPU is needed to execute the supplied notebooks.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Week 13: genuine boosting implementations. Notebooks explicitly use CPU/hist.
+xgboost==3.4.1
+lightgbm==4.7.0
+
+# Week 16: genuine local explanation libraries.
+shap==0.54.1
+lime==0.2.0.1
+
+# Week 17: both genuine deep-learning frameworks, CPU execution.
+torch==2.14.1+cpu
+tensorflow-cpu==2.21.0
+keras==3.15.1
+
+# Native Windows/macOS wheel availability is not established by Linux QA.
+# Use the platform guidance in SETUP.md; do not silently replace a framework.

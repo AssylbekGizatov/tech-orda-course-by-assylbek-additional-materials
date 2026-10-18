@@ -1,0 +1,45 @@
+{
+  "source": "author_synthetic_fixture",
+  "tickets": [
+    {
+      "ticket_id": "N101",
+      "category": "access",
+      "minutes_open": 120
+    },
+    {
+      "ticket_id": "N102",
+      "category": "billing",
+      "minutes_open": 35
+    },
+    {
+      "ticket_id": "N103",
+      "category": "schedule",
+      "minutes_open": 18
+    },
+    {
+      "ticket_id": "N101",
+      "category": "access",
+      "minutes_open": 120
+    },
+    {
+      "ticket_id": "N104",
+      "category": "other",
+      "minutes_open": -5
+    },
+    {
+      "ticket_id": "",
+      "category": "access",
+      "minutes_open": 2
+    },
+    {
+      "ticket_id": "N105",
+      "category": "other",
+      "minutes_open": 240
+    },
+    {
+      "ticket_id": "N106",
+      "category": "billing",
+      "minutes_open": 45
+    }
+  ]
+}

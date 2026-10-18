@@ -1,0 +1,123 @@
+{
+  "name": "Tech Orda W24 - Real Local HTTP",
+  "nodes": [
+    {
+      "id": "efe93d56-da72-559b-9c5a-a5be63702951",
+      "name": "Manual Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "dfc9dc34-0b12-54a2-bbb7-4e2de8586b95",
+      "name": "Read Local Fixture",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "url": "http://127.0.0.1:8765/tickets",
+        "options": {
+          "timeout": 10000
+        }
+      }
+    },
+    {
+      "id": "6f61c7b4-58ea-57db-806f-53ea16a5f945",
+      "name": "Response to Items",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const body = $input.first().json; if (!Array.isArray(body.tickets)) throw new Error('Expected tickets array'); return body.tickets.map(row=>({json:row}));"
+      }
+    },
+    {
+      "id": "30f20370-32df-5730-a115-5df8b593374d",
+      "name": "Validate and Transform",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const seen = new Set();\nreturn $input.all().map(item => {\n  const x = item.json;\n  let error = null;\n  if (!/^N\\d{3}$/.test(String(x.ticket_id ?? ''))) error = 'invalid_id';\n  else if (!['access','billing','schedule','other'].includes(x.category)) error = 'invalid_category';\n  else if (!Number.isInteger(x.minutes_open) || x.minutes_open < 0) error = 'invalid_minutes';\n  else if (seen.has(x.ticket_id)) error = 'duplicate';\n  if (!error) seen.add(x.ticket_id);\n  return {json: {...x, status: error ? 'rejected' : 'accepted', error,\n    priority: error ? null : (x.minutes_open >= 60 ? 'high' : 'normal'),\n    provenance: 'author_synthetic_fixture'}};\n});"
+      }
+    },
+    {
+      "id": "13e365b5-474f-57d6-956e-d508420068d6",
+      "name": "Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        960,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const rows = $input.all().map(i=>i.json);\nconst accepted = rows.filter(x=>x.status === 'accepted');\nreturn [{json:{input_rows:rows.length,accepted_rows:accepted.length,rejected_rows:rows.length-accepted.length,\n  high_priority:accepted.filter(x=>x.priority==='high').length,\n  provenance:'synthetic_fixture',rows}}];"
+      }
+    }
+  ],
+  "connections": {
+    "Manual Start": {
+      "main": [
+        [
+          {
+            "node": "Read Local Fixture",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Local Fixture": {
+      "main": [
+        [
+          {
+            "node": "Response to Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Response to Items": {
+      "main": [
+        [
+          {
+            "node": "Validate and Transform",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate and Transform": {
+      "main": [
+        [
+          {
+            "node": "Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

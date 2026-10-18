@@ -1,0 +1,14 @@
+{
+  "schedule": {
+    "text": "Учебные занятия: Tuesday и Thursday, 19:00–20:30.",
+    "source": "synthetic_policy_schedule"
+  },
+  "homework": {
+    "text": "Учебный срок домашней работы: Sunday 23:59.",
+    "source": "synthetic_policy_homework"
+  },
+  "project": {
+    "text": "Учебная защита: 7 минут презентация и 3 минуты вопросы.",
+    "source": "synthetic_policy_project"
+  }
+}

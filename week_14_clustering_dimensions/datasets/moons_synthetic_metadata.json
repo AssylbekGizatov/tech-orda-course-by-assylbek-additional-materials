@@ -1,0 +1,17 @@
+{
+  "file": "moons_synthetic.csv",
+  "rows": 450,
+  "columns": [
+    "sample_id",
+    "x1",
+    "x2",
+    "target"
+  ],
+  "source_type": "synthetic",
+  "exported_with_scikit_learn": "1.8.0",
+  "seed": 42,
+  "sha256": "b534790f634be9ce4d5ac6820dabaabed293345cb511688c2162d6d69f28d785",
+  "source_urls": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html"
+  ]
+}

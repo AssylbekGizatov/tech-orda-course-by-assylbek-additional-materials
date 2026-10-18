@@ -1,0 +1,23 @@
+{
+  "file": "imbalanced_synthetic.csv",
+  "rows": 1000,
+  "columns": [
+    "sample_id",
+    "x0",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "target"
+  ],
+  "source_type": "synthetic",
+  "exported_with_scikit_learn": "1.8.0",
+  "seed": 42,
+  "sha256": "fdc50b66dc587bbf5fa42c733f6c98fccd662763a0bab3aa1314c68b8778a274",
+  "source_urls": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html"
+  ]
+}

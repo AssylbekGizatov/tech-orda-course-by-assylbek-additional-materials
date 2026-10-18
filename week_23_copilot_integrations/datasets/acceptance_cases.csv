@@ -1,0 +1,7 @@
+case_id,user_id,request_id,expected
+A01,student_A,R101,found
+A02,student_B,R102,found
+A03,student_A,R102,not_found_or_forbidden
+A04,student_C,R999,not_found_or_forbidden
+A05,student_A,R101' OR 1=1--,invalid_input
+A06,student_C,R104,found

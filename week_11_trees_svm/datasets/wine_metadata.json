@@ -1,0 +1,29 @@
+{
+  "file": "wine.csv",
+  "rows": 178,
+  "columns": [
+    "sample_id",
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline",
+    "target"
+  ],
+  "source_type": "packaged_real_dataset",
+  "exported_with_scikit_learn": "1.8.0",
+  "seed": null,
+  "sha256": "0fc3df8ad389d68515505781238742dde95ba86be829967a883b606dc7b2e7e8",
+  "source_urls": [
+    "https://archive.ics.uci.edu/dataset/109/wine",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html"
+  ]
+}

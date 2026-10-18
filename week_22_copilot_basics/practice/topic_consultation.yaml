@@ -1,0 +1,36 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Consultation Lab
+    triggerQueries:
+      - Хочу консультацию
+      - Консультация по Python
+      - Записаться на консультацию
+      - Нужна консультация по проекту
+      - Обсудить проект с преподавателем
+  actions:
+    - kind: Question
+      id: askTopic
+      variable: init:Topic.Subject
+      prompt: По какой теме нужна консультация? Python, ML или Project.
+      entity: StringPrebuiltEntity
+    - kind: Question
+      id: askConfirmation
+      variable: init:Topic.Confirmed
+      prompt: Подготовить черновик запроса на консультацию?
+      entity: BooleanPrebuiltEntity
+    - kind: ConditionGroup
+      id: confirmBranch
+      conditions:
+        - id: confirmed
+          condition: =Topic.Confirmed = true
+          actions:
+            - kind: SendMessage
+              id: prepared
+              message: Черновик запроса подготовлен. Календарь не изменен. Передайте запрос преподавателю самостоятельно.
+      elseActions:
+        - kind: SendMessage
+          id: cancelled
+          message: Подготовка черновика отменена.
