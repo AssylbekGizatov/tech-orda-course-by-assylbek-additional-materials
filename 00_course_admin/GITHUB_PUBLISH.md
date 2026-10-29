@@ -6,7 +6,7 @@
 
 Курс загружен 18 октября 2026 года: [AssylbekGizatov/tech-orda-course-authored-by-gizatov-a-s](https://github.com/AssylbekGizatov/tech-orda-course-authored-by-gizatov-a-s).
 
-При заключительной проверке подтверждены статус **Private**, ветка **main**, все **351 файл** и **26 папок недель**. Контрольные суммы всех удалённых Git-объектов файлов совпали с локальным комплектом. Первоначальная загрузка: [коммит c0c1a6e](https://github.com/AssylbekGizatov/tech-orda-course-authored-by-gizatov-a-s/commit/c0c1a6ea0ca19c9829ac8a8e3fb9761270775d08).
+При заключительной проверке подтверждены статус **Private**, ветка **main**, все **351 файл** и **26 папок недель**. Контрольные суммы всех удалённых Git-объектов файлов совпали с локальным комплектом. Первоначальная загрузка: [коммит 42b5361](https://github.com/AssylbekGizatov/tech-orda-course-by-assylbek-additional-materials/commit/42b53612fca29b8f0da24315a4909d2ddacc5934).
 
 Для получения рабочей копии после входа в GitHub:
 
