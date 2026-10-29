@@ -43,6 +43,7 @@
 
 ## Файлы недели
 
+- [Инструменты старта: Jupyter Notebook & Google Colab (PDF, 15 страниц)](presentations/Lecture%201%20-%20Part%202%20MLnAI.pdf) — основная презентация преподавателя к занятию 2.
 - [`practice/01_reproducible_data_analysis.ipynb`](practice/01_reproducible_data_analysis.ipynb) — полный разобранный практикум с кодом, описательной аналитикой, графиками и проверками.
 - [`datasets/README.md`](datasets/README.md) — происхождение, словарь полей и ограничения данных.
 - [`homework/Homework_Week_01.md`](homework/Homework_Week_01.md) — задания, время, подсказки и рубрика на 100 баллов.
