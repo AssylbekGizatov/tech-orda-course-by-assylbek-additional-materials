@@ -44,6 +44,7 @@
 ## Файлы недели
 
 - [`practice/01_python_numpy_energy.ipynb`](practice/01_python_numpy_energy.ipynb) — полный разобранный практикум с кодом, описательной аналитикой, графиками и проверками.
+- [`practice/02_titanic_pandas_numpy_descriptive_practice.ipynb`](practice/02_titanic_pandas_numpy_descriptive_practice.ipynb) — дополнительное закрепление pandas и NumPy: описательная аналитика Titanic, два графика, задания и решения. Для загрузки CSV нужен интернет; ноутбук сохранён без результатов выполнения.
 - [`datasets/README.md`](datasets/README.md) — происхождение, словарь полей и ограничения данных.
 - [`homework/Homework_Week_02.md`](homework/Homework_Week_02.md) — задания, время, подсказки и рубрика на 100 баллов.
 - [`homework/Homework_Week_02.ipynb`](homework/Homework_Week_02.ipynb) — исполняемый starter с незавершёнными TODO.
@@ -52,7 +53,7 @@
 ## Как работать
 
 Установите общую среду из корня репозитория и откройте полный клон в JupyterLab.
-Выполните `Restart Kernel → Run All` сверху вниз. Лабораторная работает на CPU, без API-ключей,
+Выполните `Restart Kernel → Run All` сверху вниз. Основная лабораторная `01_python_numpy_energy.ipynb` работает на CPU, без API-ключей,
 скачивания данных и подключения к сети; пути ищутся относительно клона, а не компьютера автора.
 Часть кода можно разбирать заранее, но результаты и вопросы следует обсуждать в аудитории.
 
@@ -62,4 +63,4 @@
 - [NumPy: руководство для начинающих](https://numpy.org/doc/stable/user/absolute_beginners.html)
 - [NumPy: broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 
-Данные в практикуме синтетические. Выводы относятся к учебному примеру и не являются статистикой рынка или города.
+Данные в основном практикуме об энергопотреблении синтетические. Выводы относятся к учебному примеру и не являются статистикой рынка или города.
