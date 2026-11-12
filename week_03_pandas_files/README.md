@@ -43,6 +43,9 @@
 
 ## Файлы недели
 
+- **[Индивидуальный мини-проект Kaggle: актуальное ДЗ после Titanic и City Trips](homework/Homework_Week_03_Kaggle_Project.md)** — 10 заданий, работа с ИИ как помощником, три графика и индивидуальная защита на уроке. Старое задание ниже сохранено как дополнительная практика.
+- [City Trips: практический notebook](practice/Week_03_City_Trips_Pandas.ipynb) — материал для повторения перед мини-проектом.
+
 - [`practice/01_pandas_orders_audit.ipynb`](practice/01_pandas_orders_audit.ipynb) — полный разобранный практикум с кодом, описательной аналитикой, графиками и проверками.
 - [`datasets/README.md`](datasets/README.md) — происхождение, словарь полей и ограничения данных.
 - [`homework/Homework_Week_03.md`](homework/Homework_Week_03.md) — задания, время, подсказки и рубрика на 100 баллов.
