@@ -3,7 +3,7 @@
   "title": "Tech Orda course authored by Gizatov A. S.",
   "retrieved_date": "2026-10-18",
   "statistics": {
-    "week_folders": 26,
+    "week_folders": 24,
     "downloaded_files_with_week_copies": 78,
     "unique_downloaded_files": 69,
     "pdf_files_with_week_copies": 55,
@@ -262,8 +262,8 @@
       "reading_guide": "week_03_pandas_files/presentations/README.md"
     },
     {
-      "week": 4,
-      "relative_path": "week_04_sql_basics/presentations/01_Berkeley_Data100_SQL_I.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_basics/presentations/01_Berkeley_Data100_SQL_I.pdf",
       "title": "Data 100 Lecture 11: Finish Web Technologies & Begin SQL Databases",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp18/syllabus",
@@ -292,11 +292,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_04_sql_basics/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_basics/presentations/README.md"
     },
     {
-      "week": 4,
-      "relative_path": "week_04_sql_basics/presentations/02_Berkeley_Data100_SQL_II.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_basics/presentations/02_Berkeley_Data100_SQL_II.pdf",
       "title": "Data Science 100: Databases and SQL — Part 2",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp18/syllabus",
@@ -321,11 +321,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_04_sql_basics/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_basics/presentations/README.md"
     },
     {
-      "week": 4,
-      "relative_path": "week_04_sql_basics/presentations/03_Harvard_CS50_SQL_Relating.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_basics/presentations/03_Harvard_CS50_SQL_Relating.pdf",
       "title": "CS50’s Introduction to Databases with SQL — Week 1: Relating",
       "institution": "Harvard University — CS50",
       "source_url": "https://cs50.harvard.edu/sql/weeks/1/",
@@ -358,11 +358,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_04_sql_basics/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_basics/presentations/README.md"
     },
     {
-      "week": 5,
-      "relative_path": "week_05_sql_windows_eda/presentations/01_CMU_15445_Intermediate_SQL.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_windows_eda/presentations/01_CMU_15445_Intermediate_SQL.pdf",
       "title": "15-445/645 Database Systems — Intermediate SQL",
       "institution": "Carnegie Mellon University",
       "source_url": "https://15445.courses.cs.cmu.edu/fall2021/slides/",
@@ -387,11 +387,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_05_sql_windows_eda/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_windows_eda/presentations/README.md"
     },
     {
-      "week": 5,
-      "relative_path": "week_05_sql_windows_eda/presentations/02_MIT_17871_Descriptive_Statistics.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_windows_eda/presentations/02_MIT_17871_Descriptive_Statistics.pdf",
       "title": "17.871 Political Science Laboratory: Introduction to Descriptive Statistics",
       "institution": "Massachusetts Institute of Technology — MIT OpenCourseWare",
       "source_url": "https://ocw.mit.edu/courses/17-871-political-science-laboratory-spring-2012/resources/mit17_871s12_dscrp_stats12/",
@@ -424,11 +424,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_05_sql_windows_eda/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_windows_eda/presentations/README.md"
     },
     {
-      "week": 5,
-      "relative_path": "week_05_sql_windows_eda/presentations/03_Berkeley_Data100_EDA_Continued.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/sql_windows_eda/presentations/03_Berkeley_Data100_EDA_Continued.pdf",
       "title": "Data 100: EDA Continued / EDA and Visualization",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp18/syllabus",
@@ -453,11 +453,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_05_sql_windows_eda/presentations/README.md"
+      "reading_guide": "week_12_clustering_dimensions/sql_windows_eda/presentations/README.md"
     },
     {
-      "week": 6,
-      "relative_path": "week_06_eda_visualization/presentations/01_Berkeley_Data100_Data_Visualization.pdf",
+      "week": 4,
+      "relative_path": "week_04_eda_visualization/presentations/01_Berkeley_Data100_Data_Visualization.pdf",
       "title": "Data Visualization — Data 100: Principles and Techniques of Data Science",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp19/syllabus",
@@ -490,11 +490,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_06_eda_visualization/presentations/README.md"
+      "reading_guide": "week_04_eda_visualization/presentations/README.md"
     },
     {
-      "week": 6,
-      "relative_path": "week_06_eda_visualization/presentations/02_Stanford_CS229_Python_NumPy_Plotting.pdf",
+      "week": 4,
+      "relative_path": "week_04_eda_visualization/presentations/02_Stanford_CS229_Python_NumPy_Plotting.pdf",
       "title": "CS229: Python & Numpy",
       "institution": "Stanford University",
       "source_url": "https://cs229.stanford.edu/syllabus-fall2020",
@@ -519,11 +519,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_06_eda_visualization/presentations/README.md"
+      "reading_guide": "week_04_eda_visualization/presentations/README.md"
     },
     {
-      "week": 6,
-      "relative_path": "week_06_eda_visualization/presentations/03_MIT_17871_Bivariate_Relationships.pdf",
+      "week": 4,
+      "relative_path": "week_04_eda_visualization/presentations/03_MIT_17871_Bivariate_Relationships.pdf",
       "title": "17.871 Political Science Laboratory: Bivariate Relationships",
       "institution": "Massachusetts Institute of Technology — MIT OpenCourseWare",
       "source_url": "https://ocw.mit.edu/courses/17-871-political-science-laboratory-spring-2012/resources/mit17_871s12_bivarat_reg12/",
@@ -556,11 +556,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_06_eda_visualization/presentations/README.md"
+      "reading_guide": "week_04_eda_visualization/presentations/README.md"
     },
     {
-      "week": 7,
-      "relative_path": "week_07_storytelling_cleaning/presentations/01_Berkeley_Data100_Data_Visualization.pdf",
+      "week": 5,
+      "relative_path": "week_05_storytelling_cleaning/presentations/01_Berkeley_Data100_Data_Visualization.pdf",
       "title": "Data Visualization — Data 100: Principles and Techniques of Data Science",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp19/syllabus",
@@ -570,7 +570,7 @@
       "bytes": 28405310,
       "license": "Явная открытая лицензия на проверенных странице курса и PDF не указана; сохраняются права исходных авторов. Лицензия этого репозитория не распространяется на PDF.",
       "role": "Занятие 1: сообщение, аудитория, визуальная точность и выбор представления.",
-      "selection": "PDF pages 13–16, 23–31, 40–46, 56–58; 25 min. Таблица или график, цель визуализации, читаемые подписи, восприятие длины/площади и разобранные плохие/исправленные диаграммы. Тот же справочник, что на неделе 6, теперь читается как материал по коммуникации результатов.",
+      "selection": "PDF pages 13–16, 23–31, 40–46, 56–58; 25 min. Таблица или график, цель визуализации, читаемые подписи, восприятие длины/площади и разобранные плохие/исправленные диаграммы. Тот же справочник, что на неделе 4, теперь читается как материал по коммуникации результатов.",
       "authors": "Sandrine Dudoit; Spring 2019",
       "page_ranges_1_based": [
         [
@@ -593,11 +593,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_07_storytelling_cleaning/presentations/README.md"
+      "reading_guide": "week_05_storytelling_cleaning/presentations/README.md"
     },
     {
-      "week": 7,
-      "relative_path": "week_07_storytelling_cleaning/presentations/02_Berkeley_Data100_EDA_Continued.pdf",
+      "week": 5,
+      "relative_path": "week_05_storytelling_cleaning/presentations/02_Berkeley_Data100_EDA_Continued.pdf",
       "title": "Data 100: EDA Continued / EDA and Visualization",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp18/syllabus",
@@ -626,11 +626,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_07_storytelling_cleaning/presentations/README.md"
+      "reading_guide": "week_05_storytelling_cleaning/presentations/README.md"
     },
     {
-      "week": 7,
-      "relative_path": "week_07_storytelling_cleaning/presentations/03_MIT_17871_Descriptive_Statistics.pdf",
+      "week": 5,
+      "relative_path": "week_05_storytelling_cleaning/presentations/03_MIT_17871_Descriptive_Statistics.pdf",
       "title": "17.871 Political Science Laboratory: Introduction to Descriptive Statistics",
       "institution": "Massachusetts Institute of Technology — MIT OpenCourseWare",
       "source_url": "https://ocw.mit.edu/courses/17-871-political-science-laboratory-spring-2012/resources/mit17_871s12_dscrp_stats12/",
@@ -659,11 +659,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_07_storytelling_cleaning/presentations/README.md"
+      "reading_guide": "week_05_storytelling_cleaning/presentations/README.md"
     },
     {
-      "week": 8,
-      "relative_path": "week_08_preprocessing_pipelines/presentations/01_Berkeley_Data100_Feature_Engineering.pdf",
+      "week": 6,
+      "relative_path": "week_06_preprocessing_pipelines/presentations/01_Berkeley_Data100_Feature_Engineering.pdf",
       "title": "Data 100: Linear Models & Feature Engineering",
       "institution": "University of California, Berkeley",
       "source_url": "https://ds100.org/sp18/syllabus",
@@ -688,11 +688,11 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_08_preprocessing_pipelines/presentations/README.md"
+      "reading_guide": "week_06_preprocessing_pipelines/presentations/README.md"
     },
     {
-      "week": 8,
-      "relative_path": "week_08_preprocessing_pipelines/presentations/02_MIT_17871_Descriptive_Statistics.pdf",
+      "week": 6,
+      "relative_path": "week_06_preprocessing_pipelines/presentations/02_MIT_17871_Descriptive_Statistics.pdf",
       "title": "17.871 Political Science Laboratory: Introduction to Descriptive Statistics",
       "institution": "Massachusetts Institute of Technology — MIT OpenCourseWare",
       "source_url": "https://ocw.mit.edu/courses/17-871-political-science-laboratory-spring-2012/resources/mit17_871s12_dscrp_stats12/",
@@ -721,7 +721,7 @@
       "retrieved_date": "2026-10-18",
       "modified": false,
       "format": "pdf",
-      "reading_guide": "week_08_preprocessing_pipelines/presentations/README.md"
+      "reading_guide": "week_06_preprocessing_pipelines/presentations/README.md"
     },
     {
       "title": "ISL Chapter 3: Linear Regression",
@@ -734,8 +734,8 @@
       "bytes": 1666474,
       "sha256": "61450e700f20db80c6b7d9bb66b62406a2a06805e2b7e93be050151bda3c1faa",
       "content_type": "application/pdf",
-      "week": 9,
-      "relative_path": "week_09_linear_regression/presentations/01_Stanford_ISL_Linear_Regression.pdf",
+      "week": 7,
+      "relative_path": "week_07_linear_regression/presentations/01_Stanford_ISL_Linear_Regression.pdf",
       "role": "university lecture",
       "selection": "1–10, 19–24, 30–32",
       "selection_notes": "Модель y = β₀ + β₁x + ε, остатки, RSS/MSE, R² и многомерная регрессия. Формулы сопровождаются геометрией прямой, остатками и реальным примером.",
@@ -746,7 +746,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_09_linear_regression/presentations/README.md",
+      "reading_guide": "week_07_linear_regression/presentations/README.md",
       "modified": false
     },
     {
@@ -760,8 +760,8 @@
       "bytes": 627988,
       "sha256": "f178910be60868aa3ef1b1339e64156782a935b8757fb9ec065edc3ac8ede300",
       "content_type": "application/pdf",
-      "week": 9,
-      "relative_path": "week_09_linear_regression/presentations/02_Stanford_ISL_Regularization.pdf",
+      "week": 7,
+      "relative_path": "week_07_linear_regression/presentations/02_Stanford_ISL_Regularization.pdf",
       "role": "university lecture",
       "selection": "27–33",
       "selection_notes": "Ridge: штраф на размер коэффициентов, изменение решения с λ, масштабирование и компромисс bias/variance. Связать график путей коэффициентов с собственной таблицей Ridge в notebook.",
@@ -772,7 +772,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_09_linear_regression/presentations/README.md",
+      "reading_guide": "week_07_linear_regression/presentations/README.md",
       "modified": false
     },
     {
@@ -786,19 +786,19 @@
       "bytes": 8695574,
       "sha256": "d48ff936bf5c7951f8b6a56f71a653e04d0040134b7ccedfb7961221f24a8a25",
       "content_type": "application/pdf",
-      "week": 10,
-      "relative_path": "week_10_logistic_knn/presentations/01_Stanford_ISL_Classification.pdf",
+      "week": 8,
+      "relative_path": "week_08_logistic_knn/presentations/01_Stanford_ISL_Classification.pdf",
       "role": "university lecture",
       "selection": "1–20",
       "selection_notes": "Почему линейная регрессия не даёт корректных вероятностей класса; sigmoid, log-odds, likelihood и конкретный расчёт вероятности. На графиках видна связь признака, вероятности и ошибки.",
       "recommended_minutes": 36,
-      "optional_reading": "56–59: порог и ROC, повторение на неделе 15; LDA/QDA пока не обязательны.",
+      "optional_reading": "56–59: порог и ROC, повторение на неделе 13; LDA/QDA пока не обязательны.",
       "format": "pdf",
       "checked_date": "2026-10-18",
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_10_logistic_knn/presentations/README.md",
+      "reading_guide": "week_08_logistic_knn/presentations/README.md",
       "modified": false
     },
     {
@@ -812,8 +812,8 @@
       "bytes": 944285,
       "sha256": "55242e42ff80ee0307b3845d8032ad5eac31f7da17120f680716364eff57282f",
       "content_type": "application/pdf",
-      "week": 10,
-      "relative_path": "week_10_logistic_knn/presentations/02_MIT_60002_Classification_kNN.pdf",
+      "week": 8,
+      "relative_path": "week_08_logistic_knn/presentations/02_MIT_60002_Classification_kNN.pdf",
       "role": "university lecture",
       "selection": "3–11, 19–20",
       "selection_notes": "Матрица расстояний, ближайшие соседи, выбор k и границы применимости. Иллюстрации рукописных цифр и соседей дают понятный мост к собственному kNN на NumPy.",
@@ -824,7 +824,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_10_logistic_knn/presentations/README.md",
+      "reading_guide": "week_08_logistic_knn/presentations/README.md",
       "modified": false
     },
     {
@@ -838,8 +838,8 @@
       "bytes": 3476867,
       "sha256": "66ad5002e2eadeed840cee9c15f5569d3ab7268797db1b15a4016f7d0d7f07df",
       "content_type": "application/pdf",
-      "week": 11,
-      "relative_path": "week_11_trees_svm/presentations/01_Stanford_ISL_Tree_Methods.pdf",
+      "week": 9,
+      "relative_path": "week_09_trees_svm/presentations/01_Stanford_ISL_Tree_Methods.pdf",
       "role": "university lecture",
       "selection": "1–16, 25–32",
       "selection_notes": "Разбиение пространства, узлы и листья, регрессионные и классификационные деревья, Gini и преимущества/ограничения. Есть дерево, области признаков и численные критерии.",
@@ -850,7 +850,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_11_trees_svm/presentations/README.md",
+      "reading_guide": "week_09_trees_svm/presentations/README.md",
       "modified": false
     },
     {
@@ -864,8 +864,8 @@
       "bytes": 1303595,
       "sha256": "5d2c250be3123d4be19897f259a593e2f8a9b905cfcb8bac5e1c755b1b649615",
       "content_type": "application/pdf",
-      "week": 11,
-      "relative_path": "week_11_trees_svm/presentations/02_Stanford_ISL_SVM.pdf",
+      "week": 9,
+      "relative_path": "week_09_trees_svm/presentations/02_Stanford_ISL_SVM.pdf",
       "role": "university lecture",
       "selection": "1–12, 17–26",
       "selection_notes": "Геометрия margin, опорные векторы, soft margin, kernel и нелинейная граница. Полную оптимизационную задачу читать как описание ограничений; вывод двойственной задачи не требуется.",
@@ -876,7 +876,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_11_trees_svm/presentations/README.md",
+      "reading_guide": "week_09_trees_svm/presentations/README.md",
       "modified": false
     },
     {
@@ -890,8 +890,8 @@
       "bytes": 4333771,
       "sha256": "7c0c1dd660fc3f663f9f2126f8b05fb3dd87f69ce800b0f45883b628e074bfa2",
       "content_type": "application/pdf",
-      "week": 11,
-      "relative_path": "week_11_trees_svm/presentations/03_Yale_CPSC470_Learning_from_Observations.pdf",
+      "week": 9,
+      "relative_path": "week_09_trees_svm/presentations/03_Yale_CPSC470_Learning_from_Observations.pdf",
       "role": "optional university lecture",
       "selection": "11–17, 19–21",
       "selection_notes": "Дополнительный разбор дерева на примере решения о посещении ресторана: таблица наблюдений, энтропия, information gain и переобучение.",
@@ -902,7 +902,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_11_trees_svm/presentations/README.md",
+      "reading_guide": "week_09_trees_svm/presentations/README.md",
       "modified": false
     },
     {
@@ -916,19 +916,19 @@
       "bytes": 3476867,
       "sha256": "66ad5002e2eadeed840cee9c15f5569d3ab7268797db1b15a4016f7d0d7f07df",
       "content_type": "application/pdf",
-      "week": 12,
-      "relative_path": "week_12_random_forest/presentations/01_Stanford_ISL_Tree_Methods.pdf",
+      "week": 10,
+      "relative_path": "week_10_random_forest/presentations/01_Stanford_ISL_Tree_Methods.pdf",
       "role": "university lecture",
       "selection": "33–42",
       "selection_notes": "Bootstrap, bagging, OOB и random forest; сравнение ошибок ансамбля и отдельного дерева. Использовать графики для обсуждения числа деревьев и корреляции ошибок.",
       "recommended_minutes": 26,
-      "optional_reading": "1–32: повторение деревьев; 43–55: следующий шаг — boosting на неделе 13.",
+      "optional_reading": "1–32: повторение деревьев; 43–55: следующий шаг — boosting на неделе 11.",
       "format": "pdf",
       "checked_date": "2026-10-18",
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_12_random_forest/presentations/README.md",
+      "reading_guide": "week_10_random_forest/presentations/README.md",
       "modified": false
     },
     {
@@ -942,8 +942,8 @@
       "bytes": 255152,
       "sha256": "730b91130bed1532d3de1a4fa4c69da8e61bc7f0342878fb223b84796d1614dd",
       "content_type": "application/pdf",
-      "week": 12,
-      "relative_path": "week_12_random_forest/presentations/02_Stanford_CS229_Ensemble_Methods.pdf",
+      "week": 10,
+      "relative_path": "week_10_random_forest/presentations/02_Stanford_CS229_Ensemble_Methods.pdf",
       "role": "university lecture",
       "selection": "5–23",
       "selection_notes": "Как усреднение снижает дисперсию, почему коррелированные деревья мешают и как random forest их разнообразит. Есть формулы дисперсии и схема построения ансамбля.",
@@ -954,7 +954,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_12_random_forest/presentations/README.md",
+      "reading_guide": "week_10_random_forest/presentations/README.md",
       "modified": false
     },
     {
@@ -968,8 +968,8 @@
       "bytes": 3476867,
       "sha256": "66ad5002e2eadeed840cee9c15f5569d3ab7268797db1b15a4016f7d0d7f07df",
       "content_type": "application/pdf",
-      "week": 13,
-      "relative_path": "week_13_boosting_tuning/presentations/01_Stanford_ISL_Tree_Methods.pdf",
+      "week": 11,
+      "relative_path": "week_11_boosting_tuning/presentations/01_Stanford_ISL_Tree_Methods.pdf",
       "role": "university lecture",
       "selection": "43–55",
       "selection_notes": "Пошаговое обучение на остатках, shrinkage/learning rate, глубина слабого дерева и число итераций. Псевдокод сопоставить с ручным residual boosting и реальным XGBoost/LightGBM.",
@@ -980,7 +980,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_13_boosting_tuning/presentations/README.md",
+      "reading_guide": "week_11_boosting_tuning/presentations/README.md",
       "modified": false
     },
     {
@@ -994,8 +994,8 @@
       "bytes": 255152,
       "sha256": "730b91130bed1532d3de1a4fa4c69da8e61bc7f0342878fb223b84796d1614dd",
       "content_type": "application/pdf",
-      "week": 13,
-      "relative_path": "week_13_boosting_tuning/presentations/02_Stanford_CS229_Ensemble_Methods.pdf",
+      "week": 11,
+      "relative_path": "week_11_boosting_tuning/presentations/02_Stanford_CS229_Ensemble_Methods.pdf",
       "role": "university lecture",
       "selection": "25–35",
       "selection_notes": "Разница AdaBoost и gradient boosting, последовательная коррекция ошибок, градиент в пространстве функций и параметры обучения.",
@@ -1006,7 +1006,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_13_boosting_tuning/presentations/README.md",
+      "reading_guide": "week_11_boosting_tuning/presentations/README.md",
       "modified": false
     },
     {
@@ -1020,8 +1020,8 @@
       "bytes": 4608227,
       "sha256": "3523e536b355d8a8004cbe87dd89adeb9dbde7c1d05e9516fc9cf2681dfbc264",
       "content_type": "application/pdf",
-      "week": 14,
-      "relative_path": "week_14_clustering_dimensions/presentations/01_Stanford_ISL_Unsupervised_Learning.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/presentations/01_Stanford_ISL_Unsupervised_Learning.pdf",
       "role": "university lecture",
       "selection": "5–10, 13–24, 29–37",
       "selection_notes": "PCA как проекция на направления дисперсии, explained variance, влияние масштаба; затем цель k-means и шаги Lloyd. Много геометрических графиков, формулы связаны с визуализацией.",
@@ -1032,7 +1032,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_14_clustering_dimensions/presentations/README.md",
+      "reading_guide": "week_12_clustering_dimensions/presentations/README.md",
       "modified": false
     },
     {
@@ -1046,8 +1046,8 @@
       "bytes": 1049310,
       "sha256": "e7a24d468c69e4e0ec2508b494cb72756ec79d543bf63670c232940b877df8c2",
       "content_type": "application/pdf",
-      "week": 14,
-      "relative_path": "week_14_clustering_dimensions/presentations/02_CMU_95865_tSNE.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/presentations/02_CMU_95865_tSNE.pdf",
       "role": "university lecture",
       "selection": "5–10",
       "selection_notes": "t-SNE: вероятности соседства в исходном и двумерном пространствах, Gaussian/Student-t, perplexity и ограничения интерпретации кластеров.",
@@ -1058,7 +1058,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_14_clustering_dimensions/presentations/README.md",
+      "reading_guide": "week_12_clustering_dimensions/presentations/README.md",
       "modified": false
     },
     {
@@ -1072,8 +1072,8 @@
       "bytes": 1385873,
       "sha256": "7bcd3481d96c10eb6057192e77a3f9b9fd489b921b36f7867098441b6b4fa49c",
       "content_type": "application/pdf",
-      "week": 14,
-      "relative_path": "week_14_clustering_dimensions/presentations/03_CMU_95865_DBSCAN.pdf",
+      "week": 12,
+      "relative_path": "week_12_clustering_dimensions/presentations/03_CMU_95865_DBSCAN.pdf",
       "role": "university lecture",
       "selection": "5–16",
       "selection_notes": "DBSCAN через ε-окрестность: min_samples, core/border/noise и последовательное расширение кластера. Несколько кадров показывают один алгоритм на точках.",
@@ -1084,7 +1084,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_14_clustering_dimensions/presentations/README.md",
+      "reading_guide": "week_12_clustering_dimensions/presentations/README.md",
       "modified": false
     },
     {
@@ -1098,8 +1098,8 @@
       "bytes": 546785,
       "sha256": "b5a1fad5734ef3becff64e83c08515b60c82e43954d5f9540a4277ef0cf953f0",
       "content_type": "application/pdf",
-      "week": 15,
-      "relative_path": "week_15_evaluation_cv/presentations/01_Stanford_CS229_Evaluation_Metrics.pdf",
+      "week": 13,
+      "relative_path": "week_13_evaluation_cv/presentations/01_Stanford_CS229_Evaluation_Metrics.pdf",
       "role": "university lecture",
       "selection": "5–8, 13, 15, 17, 19, 21–22, 24, 26–36, 38–43",
       "selection_notes": "Confusion matrix, precision/recall/F1, изменение порога, ROC/PR, log-loss/Brier, calibration и регрессионные метрики. Одна численная таблица связывает определения и бизнес-ошибки.",
@@ -1110,7 +1110,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_15_evaluation_cv/presentations/README.md",
+      "reading_guide": "week_13_evaluation_cv/presentations/README.md",
       "modified": false
     },
     {
@@ -1124,8 +1124,8 @@
       "bytes": 424538,
       "sha256": "60a4bdf4b1b46d9ffd87e348128f469c255efad5d3ff8c9f9e44038b5ebaf146",
       "content_type": "application/pdf",
-      "week": 15,
-      "relative_path": "week_15_evaluation_cv/presentations/02_Stanford_ISL_Resampling.pdf",
+      "week": 13,
+      "relative_path": "week_13_evaluation_cv/presentations/02_Stanford_ISL_Resampling.pdf",
       "role": "university lecture",
       "selection": "4–15, 20–32",
       "selection_notes": "Validation, LOOCV и k-fold CV с рисунками разбиений; особенно важен пример неправильного отбора признаков до CV. Связать с Pipeline и честным outer test.",
@@ -1136,7 +1136,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_15_evaluation_cv/presentations/README.md",
+      "reading_guide": "week_13_evaluation_cv/presentations/README.md",
       "modified": false
     },
     {
@@ -1150,8 +1150,8 @@
       "bytes": 4980141,
       "sha256": "372e4262730a029a4c157959b0db685812152d3977d854ae509f3a945b4516ca",
       "content_type": "application/pdf",
-      "week": 16,
-      "relative_path": "week_16_explainability_nn/presentations/01_Stanford_CS224U_Explainability_LIME_SHAP.pdf",
+      "week": 14,
+      "relative_path": "week_14_explainability_nn/presentations/01_Stanford_CS224U_Explainability_LIME_SHAP.pdf",
       "role": "university lecture",
       "selection": "16, 20, 25, 30, 33–39, 42–46, 47–58",
       "selection_notes": "Что объясняет модель: локальные аппроксимации LIME, Shapley/SHAP, вклад признака и пределы причинных выводов. Формула аддитивного объяснения и картинки сопоставляются с настоящими SHAP/LIME outputs.",
@@ -1162,7 +1162,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_16_explainability_nn/presentations/README.md",
+      "reading_guide": "week_14_explainability_nn/presentations/README.md",
       "modified": false
     },
     {
@@ -1176,8 +1176,8 @@
       "bytes": 4091199,
       "sha256": "e0e8095ef031b1d55715d460a6fcc24cec2649cdd005126124cebb0f0358cbdb",
       "content_type": "application/pdf",
-      "week": 16,
-      "relative_path": "week_16_explainability_nn/presentations/02_MIT_15773_Introduction_Neural_Networks.pdf",
+      "week": 14,
+      "relative_path": "week_14_explainability_nn/presentations/02_MIT_15773_Introduction_Neural_Networks.pdf",
       "role": "university lecture",
       "selection": "55–64, 78–85, 88–94, 97–104",
       "selection_notes": "Переход от логистической регрессии к слою нейронов; веса, bias, activation, hidden/output layer и пошаговый forward pass с числами. Выбрана вводная часть практического курса MIT.",
@@ -1188,7 +1188,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_16_explainability_nn/presentations/README.md",
+      "reading_guide": "week_14_explainability_nn/presentations/README.md",
       "modified": false
     },
     {
@@ -1202,8 +1202,8 @@
       "bytes": 4350990,
       "sha256": "906b09877d36e121705ee89576aff8291ba9d70ea15713753c9a734894ca20b8",
       "content_type": "application/pdf",
-      "week": 17,
-      "relative_path": "week_17_backprop_frameworks/presentations/01_Stanford_CS231n_Backpropagation.pdf",
+      "week": 15,
+      "relative_path": "week_15_backprop_frameworks/presentations/01_Stanford_CS231n_Backpropagation.pdf",
       "role": "university lecture",
       "selection": "22–34, 49–52, 57–78, 95–109",
       "selection_notes": "Вычислительный граф, простой численный пример chain rule, upstream/local/downstream gradient и паттерны потока градиента. На занятии: 23, 30–34, 52, 59, 69–72, 78, 98–104; остальные кадры раскрывают шаги.",
@@ -1214,7 +1214,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_17_backprop_frameworks/presentations/README.md",
+      "reading_guide": "week_15_backprop_frameworks/presentations/README.md",
       "modified": false
     },
     {
@@ -1228,8 +1228,8 @@
       "bytes": 1454343,
       "sha256": "2f12cacb2298941c2a680df78f81bd73087726d44324c30ea7e1112edaa7eaef",
       "content_type": "application/pdf",
-      "week": 17,
-      "relative_path": "week_17_backprop_frameworks/presentations/02_MIT_15773_Training_Neural_Networks.pdf",
+      "week": 15,
+      "relative_path": "week_15_backprop_frameworks/presentations/02_MIT_15773_Training_Neural_Networks.pdf",
       "role": "university lecture",
       "selection": "34, 40, 43–49, 57, 64, 67, 69, 73–75, 77, 85",
       "selection_notes": "Визуальная опора для MSE/binary cross-entropy, learning rate и gradient descent. Повторяющиеся кадры можно перелистывать; каждую формулу связать с одной строкой NumPy.",
@@ -1240,7 +1240,7 @@
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_17_backprop_frameworks/presentations/README.md",
+      "reading_guide": "week_15_backprop_frameworks/presentations/README.md",
       "modified": false
     },
     {
@@ -1254,23 +1254,23 @@
       "bytes": 971955,
       "sha256": "e9f90b17375c21a3dbebb44d67cdab183f3138feaf1f50d31156bc88605c1b01",
       "content_type": "application/pdf",
-      "week": 17,
-      "relative_path": "week_17_backprop_frameworks/presentations/03_MIT_15773_Keras_TensorFlow.pdf",
+      "week": 15,
+      "relative_path": "week_15_backprop_frameworks/presentations/03_MIT_15773_Keras_TensorFlow.pdf",
       "role": "university lecture",
       "selection": "3–20, 27–40",
       "selection_notes": "Batch/epoch, validation, overfitting, early stopping и Keras/TF API. В практике запускаются обе настоящие библиотеки: TensorFlow/Keras и PyTorch.",
       "recommended_minutes": 20,
-      "optional_reading": "Подробное сравнение DL learning curves продолжается на неделе 18. Keras shapes и современные API брать из исполняемого notebook.",
+      "optional_reading": "Подробное сравнение DL learning curves продолжается на неделе 16. Keras shapes и современные API брать из исполняемого notebook.",
       "format": "pdf",
       "checked_date": "2026-10-18",
       "level": "beginner selection; complete university original may contain advanced sections",
       "verification": "PDF magic, SHA-256, page count, extracted page text, selected pages visually reviewed",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_17_backprop_frameworks/presentations/README.md",
+      "reading_guide": "week_15_backprop_frameworks/presentations/README.md",
       "modified": false
     },
     {
-      "week": 18,
+      "week": 16,
       "filename": "MIT_Neural_Network_Training_Validation.pdf",
       "title": "Lecture 03A: Lightning Introduction to Keras/TF; Training a DL Model for a Structured Data Problem (2024)",
       "institution": "MIT; Vivek Farias and Rama Ramakrishnan",
@@ -1283,7 +1283,7 @@
       "content_type": "application/pdf",
       "pages": 44,
       "text_characters": 9508,
-      "relative_path": "week_18_dl_llm_intro/presentations/MIT_Neural_Network_Training_Validation.pdf",
+      "relative_path": "week_16_dl_llm_intro/presentations/MIT_Neural_Network_Training_Validation.pdf",
       "bytes": 971955,
       "sha256": "e9f90b17375c21a3dbebb44d67cdab183f3138feaf1f50d31156bc88605c1b01",
       "retrieved_at": "2026-10-18",
@@ -1305,11 +1305,11 @@
       "topic_fit": "Первое занятие: валидация нейросети и регуляризация. На странице17 сопоставьте минимум validation loss с выбранным checkpoint в ноутбуке.",
       "teaching_note": "Это Lecture03A, а не обзор всего DL. Исторические фрагменты Keras2024 на страницах36–43 используйте как иллюстрации; исполняемый код и версии курса находятся в practice. Dropout здесь объясняется концептуально; sklearn MLP в практике использует L2 и выбор checkpoint.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_18_dl_llm_intro/presentations/README.md",
+      "reading_guide": "week_16_dl_llm_intro/presentations/README.md",
       "modified": false
     },
     {
-      "week": 18,
+      "week": 16,
       "filename": "Stanford_CS224N_Transformers.pdf",
       "title": "CS224N Lecture 8: Transformers (Spring 2024)",
       "institution": "Stanford University; Anna Goldie",
@@ -1322,7 +1322,7 @@
       "content_type": "application/pdf",
       "pages": 62,
       "text_characters": 23132,
-      "relative_path": "week_18_dl_llm_intro/presentations/Stanford_CS224N_Transformers.pdf",
+      "relative_path": "week_16_dl_llm_intro/presentations/Stanford_CS224N_Transformers.pdf",
       "bytes": 4991668,
       "sha256": "4bcf82f6d3c21137cb1b11456b3a214f2d790c228c8ad940b50ce64f3330b3cf",
       "retrieved_at": "2026-10-18",
@@ -1345,11 +1345,11 @@
       "topic_fit": "Второе занятие: attention и причинная маска. Страница30 выводит матричную операцию, а37 добавляет деление на sqrt(d_k).",
       "teaching_note": "В practice реализована маленькая численная демонстрация attention без предобученных весов. Она проверяет форму матриц и маску; генератором уровня промышленной LLM она не является.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_18_dl_llm_intro/presentations/README.md",
+      "reading_guide": "week_16_dl_llm_intro/presentations/README.md",
       "modified": false
     },
     {
-      "week": 19,
+      "week": 17,
       "filename": "OpenAI_Prompt_Engineering.html",
       "title": "Prompt engineering",
       "institution": "OpenAI",
@@ -1361,7 +1361,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_19_prompt_engineering/presentations/OpenAI_Prompt_Engineering.html",
+      "relative_path": "week_17_prompt_engineering/presentations/OpenAI_Prompt_Engineering.html",
       "bytes": 713554,
       "sha256": "951b53d7b85c72abe0a1aa29fa020fb7c34fe993b2267b52cde00831f2049a25",
       "retrieved_at": "2026-10-18",
@@ -1370,10 +1370,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Уточнение системных инструкций, разделения данных и task examples.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_19_prompt_engineering/presentations/README.md"
+      "reading_guide": "week_17_prompt_engineering/presentations/README.md"
     },
     {
-      "week": 19,
+      "week": 17,
       "filename": "OpenAI_Reasoning_Best_Practices.html",
       "title": "Reasoning best practices",
       "institution": "OpenAI",
@@ -1385,7 +1385,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/reasoning-best-practices",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_19_prompt_engineering/presentations/OpenAI_Reasoning_Best_Practices.html",
+      "relative_path": "week_17_prompt_engineering/presentations/OpenAI_Reasoning_Best_Practices.html",
       "bytes": 394788,
       "sha256": "cb9e03f4424bcd2a192bdaa6fc33c042f8e8c9117519f5dbb6ba734bae8e208b",
       "retrieved_at": "2026-10-18",
@@ -1394,10 +1394,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Практические требования к ясным инструкциям и проверяемому итоговому ответу.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_19_prompt_engineering/presentations/README.md"
+      "reading_guide": "week_17_prompt_engineering/presentations/README.md"
     },
     {
-      "week": 19,
+      "week": 17,
       "filename": "Stanford_CS224N_Evaluation.pdf",
       "title": "CS224N Lecture 11: Evaluation (2024)",
       "institution": "Stanford University; Yann Dubois",
@@ -1410,7 +1410,7 @@
       "content_type": "application/pdf",
       "pages": 65,
       "text_characters": 12642,
-      "relative_path": "week_19_prompt_engineering/presentations/Stanford_CS224N_Evaluation.pdf",
+      "relative_path": "week_17_prompt_engineering/presentations/Stanford_CS224N_Evaluation.pdf",
       "bytes": 8578666,
       "sha256": "688d1355e1aa2a7e75aa9001d8ae661abe378154d741eaab7c5221f07029337b",
       "retrieved_at": "2026-10-18",
@@ -1438,11 +1438,11 @@
       "topic_fit": "Второе занятие: отдельно оценивать корректность JSON, класс и подтверждение ответа; не считать красиво написанный ответ автоматически правильным.",
       "teaching_note": "Цифры старых leaderboard и стоимости из2024 не используются как текущие. Таблица authored_responses в нашем ноутбуке — размеченный авторский набор для отладки evaluator; она не доказывает превосходство какого-либо prompt на живой модели.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_19_prompt_engineering/presentations/README.md",
+      "reading_guide": "week_17_prompt_engineering/presentations/README.md",
       "modified": false
     },
     {
-      "week": 19,
+      "week": 17,
       "filename": "Stanford_CS224N_Prompting_RLHF.pdf",
       "title": "CS224N Lecture 10: Prompting, Instruction Finetuning and RLHF (2024)",
       "institution": "Stanford University; Archit Sharma",
@@ -1455,7 +1455,7 @@
       "content_type": "application/pdf",
       "pages": 94,
       "text_characters": 28064,
-      "relative_path": "week_19_prompt_engineering/presentations/Stanford_CS224N_Prompting_RLHF.pdf",
+      "relative_path": "week_17_prompt_engineering/presentations/Stanford_CS224N_Prompting_RLHF.pdf",
       "bytes": 8837068,
       "sha256": "7510a2f4d2912325efc7877a7ae163c442252df5ce9dfc52eb0a4824fbca720c",
       "retrieved_at": "2026-10-18",
@@ -1477,11 +1477,11 @@
       "topic_fit": "Первое занятие: сравнить один и тот же classification prompt без примеров и с несколькими примерами; сохранять dev/test отдельно.",
       "teaching_note": "Страницы26–33 описывают исторические исследования chain-of-thought. Для текущей практики используйте ясные инструкции и краткое проверяемое обоснование/ссылку на входные данные; актуальная инструкция OpenAI по reasoning лежит рядом. Автор титульного слайда — Archit Sharma.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_19_prompt_engineering/presentations/README.md",
+      "reading_guide": "week_17_prompt_engineering/presentations/README.md",
       "modified": false
     },
     {
-      "week": 20,
+      "week": 18,
       "filename": "MIT_Large_Language_Models_II.pdf",
       "title": "Large Language Models II — 15.773 Hands-on Deep Learning (2024)",
       "institution": "MIT; Rama Ramakrishnan",
@@ -1494,7 +1494,7 @@
       "content_type": "application/pdf",
       "pages": 115,
       "text_characters": 33076,
-      "relative_path": "week_20_gpt_api_chatbot/presentations/MIT_Large_Language_Models_II.pdf",
+      "relative_path": "week_18_gpt_api_chatbot/presentations/MIT_Large_Language_Models_II.pdf",
       "bytes": 3395239,
       "sha256": "9e618c80854846f573aaa2f6229c407c259e7c70264f91ba1764d06fec5805ef",
       "retrieved_at": "2026-10-18",
@@ -1521,11 +1521,11 @@
       "topic_fit": "Основа для объяснения того, что API получает инструкции/историю и возвращает ответ. Это университетская концептуальная презентация; текущий синтаксис SDK, аутентификация и ошибки изучаются по сохранённой документации OpenAI.",
       "teaching_note": "Историческая лестница GPT/GPT-2/GPT-3 и примеры ChatGPT относятся к лекции2024. Выбор актуальной доступной модели выполняется в LIVE_API_LAB.md через переменную окружения, без жёстко зашитого устаревшего model ID.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_20_gpt_api_chatbot/presentations/README.md",
+      "reading_guide": "week_18_gpt_api_chatbot/presentations/README.md",
       "modified": false
     },
     {
-      "week": 20,
+      "week": 18,
       "filename": "OpenAI_Error_Codes.html",
       "title": "API error codes and handling",
       "institution": "OpenAI",
@@ -1537,7 +1537,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/error-codes",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_20_gpt_api_chatbot/presentations/OpenAI_Error_Codes.html",
+      "relative_path": "week_18_gpt_api_chatbot/presentations/OpenAI_Error_Codes.html",
       "bytes": 455120,
       "sha256": "f94eaa9b66af84500ba655d8f263abf01d31a8c6ed4eadd6734df93df2655682",
       "retrieved_at": "2026-10-18",
@@ -1546,10 +1546,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Отличать401/403 от429 и5xx; выбирать понятное сообщение пользователю и ограниченный retry.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_20_gpt_api_chatbot/presentations/README.md"
+      "reading_guide": "week_18_gpt_api_chatbot/presentations/README.md"
     },
     {
-      "week": 20,
+      "week": 18,
       "filename": "OpenAI_Migrate_to_Responses.html",
       "title": "Migrate to the Responses API",
       "institution": "OpenAI",
@@ -1561,7 +1561,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/migrate-to-responses",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_20_gpt_api_chatbot/presentations/OpenAI_Migrate_to_Responses.html",
+      "relative_path": "week_18_gpt_api_chatbot/presentations/OpenAI_Migrate_to_Responses.html",
       "bytes": 992216,
       "sha256": "48900e678630f280dd2a5d1e2d8018c4cd1d32d52884b646e6653bfb1c33d4f5",
       "retrieved_at": "2026-10-18",
@@ -1570,10 +1570,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Chat Completions сохранён для темы силлабуса; для новых приложений сопоставить с текущим Responses API.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_20_gpt_api_chatbot/presentations/README.md"
+      "reading_guide": "week_18_gpt_api_chatbot/presentations/README.md"
     },
     {
-      "week": 20,
+      "week": 18,
       "filename": "OpenAI_Python_SDK.html",
       "title": "Python SDK reference: Responses and Chat Completions",
       "institution": "OpenAI",
@@ -1585,7 +1585,7 @@
       "retrieved_url": "https://developers.openai.com/api/reference/python",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_20_gpt_api_chatbot/presentations/OpenAI_Python_SDK.html",
+      "relative_path": "week_18_gpt_api_chatbot/presentations/OpenAI_Python_SDK.html",
       "bytes": 721254,
       "sha256": "722be93438c0b6eec3152b9ae251451a32e693666da708cf000cd136565824f9",
       "retrieved_at": "2026-10-18",
@@ -1594,10 +1594,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Актуальные import, OPENAI_API_KEY, responses.create/chat.completions.create и обработка сетевых/API ошибок.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_20_gpt_api_chatbot/presentations/README.md"
+      "reading_guide": "week_18_gpt_api_chatbot/presentations/README.md"
     },
     {
-      "week": 21,
+      "week": 19,
       "filename": "OpenAI_Conversation_State.html",
       "title": "Conversation state",
       "institution": "OpenAI",
@@ -1609,7 +1609,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/conversation-state",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_21_context_memory/presentations/OpenAI_Conversation_State.html",
+      "relative_path": "week_19_context_memory/presentations/OpenAI_Conversation_State.html",
       "bytes": 715453,
       "sha256": "cb751aa12925340b904c94c282946ca0cd3493c632b93e07fd854ae37b8e5ded",
       "retrieved_at": "2026-10-18",
@@ -1618,10 +1618,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "История, управление состоянием и бюджетом контекста; хранить разные сессии отдельно.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_21_context_memory/presentations/README.md"
+      "reading_guide": "week_19_context_memory/presentations/README.md"
     },
     {
-      "week": 21,
+      "week": 19,
       "filename": "OpenAI_Retrieval.html",
       "title": "Retrieval guide",
       "institution": "OpenAI",
@@ -1633,7 +1633,7 @@
       "retrieved_url": "https://developers.openai.com/api/docs/guides/retrieval",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_21_context_memory/presentations/OpenAI_Retrieval.html",
+      "relative_path": "week_19_context_memory/presentations/OpenAI_Retrieval.html",
       "bytes": 1053301,
       "sha256": "5a559645a206d9f01824f7481d151ae80d3bf6ed955ed17f3e47c6b183c7d73e",
       "retrieved_at": "2026-10-18",
@@ -1642,10 +1642,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Сравнить локальный учебный поиск с настоящим hosted retrieval; optional API-расширение.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_21_context_memory/presentations/README.md"
+      "reading_guide": "week_19_context_memory/presentations/README.md"
     },
     {
-      "week": 21,
+      "week": 19,
       "filename": "Stanford_CME295_RAG_Agents.pdf",
       "title": "CME295 Lecture 7: Agentic LLMs, RAG and Function Calling (Fall 2025)",
       "institution": "Stanford University; Afshine Amidi and Shervine Amidi",
@@ -1658,7 +1658,7 @@
       "content_type": "application/pdf",
       "pages": 151,
       "text_characters": 36379,
-      "relative_path": "week_21_context_memory/presentations/Stanford_CME295_RAG_Agents.pdf",
+      "relative_path": "week_19_context_memory/presentations/Stanford_CME295_RAG_Agents.pdf",
       "bytes": 2447092,
       "sha256": "2772ba9a870a3b7e3666f47696e9af6794489ce169de4a0f3ea1b91ce13e7234",
       "retrieved_at": "2026-10-18",
@@ -1695,11 +1695,11 @@
       "topic_fit": "Первое занятие: локальный retrieval и независимая оценка поиска. На74–75 вручную посчитайте Recall@k и Precision@k для одного запроса.",
       "teaching_note": "Используется опубликованная архивная лекция Fall2025. В учебной CPU-практике retrieval — локальный TF-IDF, а не hosted vector store. Память диалога, контекстное окно и база знаний — разные состояния; актуальная реализация OpenAI описана в двух соседних snapshots.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_21_context_memory/presentations/README.md",
+      "reading_guide": "week_19_context_memory/presentations/README.md",
       "modified": false
     },
     {
-      "week": 22,
+      "week": 20,
       "filename": "Berkeley_LLM_Agent_History.pdf",
       "title": "History of LLM Agents (2024)",
       "institution": "UC Berkeley LLM Agents course; guest lecturer Shunyu Yao",
@@ -1712,7 +1712,7 @@
       "content_type": "application/pdf",
       "pages": 71,
       "text_characters": 18596,
-      "relative_path": "week_22_copilot_basics/presentations/Berkeley_LLM_Agent_History.pdf",
+      "relative_path": "week_20_copilot_basics/presentations/Berkeley_LLM_Agent_History.pdf",
       "bytes": 9705817,
       "sha256": "c03eccc0b7b8d0657e74bf584a001cd51a17d04f421205e8a6b72740f75ec184",
       "retrieved_at": "2026-10-18",
@@ -1738,11 +1738,11 @@
       "topic_fit": "Понятия для Copilot Studio: агент, знание, тема, внешнее действие. Интерфейс Copilot и порядок кликов изучаются по Microsoft Learn и нашей лабораторной.",
       "teaching_note": "Это гостевая лекция Shunyu Yao в UC Berkeley, не презентация Microsoft и не инструкция по Copilot Studio. Схемы используются для понимания; соответствие реальному сервису проверяется отдельно в COPILOT_STUDIO_LAB.md.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_22_copilot_basics/presentations/README.md",
+      "reading_guide": "week_20_copilot_basics/presentations/README.md",
       "modified": false
     },
     {
-      "week": 22,
+      "week": 20,
       "filename": "Microsoft_Create_Agent.html",
       "title": "Quickstart: Create and deploy an agent",
       "institution": "Microsoft Learn",
@@ -1754,7 +1754,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_22_copilot_basics/presentations/Microsoft_Create_Agent.html",
+      "relative_path": "week_20_copilot_basics/presentations/Microsoft_Create_Agent.html",
       "bytes": 57854,
       "sha256": "b8c1092888701a430374876bc8aae126fbeccb51b013e0e60da9aca414d6e0fa",
       "retrieved_at": "2026-10-18",
@@ -1763,10 +1763,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Реальный интерфейс создания агента; проходить вместе с COPILOT_STUDIO_LAB.md.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_22_copilot_basics/presentations/README.md"
+      "reading_guide": "week_20_copilot_basics/presentations/README.md"
     },
     {
-      "week": 22,
+      "week": 20,
       "filename": "Microsoft_Knowledge.html",
       "title": "Knowledge in Copilot Studio",
       "institution": "Microsoft Learn",
@@ -1778,7 +1778,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_22_copilot_basics/presentations/Microsoft_Knowledge.html",
+      "relative_path": "week_20_copilot_basics/presentations/Microsoft_Knowledge.html",
       "bytes": 71624,
       "sha256": "e4f9a5f2217287d245dd562aaa57c42b7ada3d9a23594f578f255ccce10be84c",
       "retrieved_at": "2026-10-18",
@@ -1787,10 +1787,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Выбор источника знаний и пользовательская аутентификация.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_22_copilot_basics/presentations/README.md"
+      "reading_guide": "week_20_copilot_basics/presentations/README.md"
     },
     {
-      "week": 22,
+      "week": 20,
       "filename": "Microsoft_Topics.html",
       "title": "Create and edit topics",
       "institution": "Microsoft Learn",
@@ -1802,7 +1802,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_22_copilot_basics/presentations/Microsoft_Topics.html",
+      "relative_path": "week_20_copilot_basics/presentations/Microsoft_Topics.html",
       "bytes": 78561,
       "sha256": "de4962953fa453cd627cea6ff29ed727625fdb16cda8a52779529699fc6ff4a1",
       "retrieved_at": "2026-10-18",
@@ -1811,10 +1811,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Триггеры, вопросы, переменные и ветвления; локальный state-machine simulator иллюстрирует эти понятия.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_22_copilot_basics/presentations/README.md"
+      "reading_guide": "week_20_copilot_basics/presentations/README.md"
     },
     {
-      "week": 23,
+      "week": 21,
       "filename": "Berkeley_Enterprise_Agent_Workflows.pdf",
       "title": "Agents for Enterprise Workflows — CS294/194-196 Lecture 7 (2024)",
       "institution": "UC Berkeley LLM Agents course; guest lecturer Nicolas Chapados, ServiceNow",
@@ -1827,7 +1827,7 @@
       "content_type": "application/pdf",
       "pages": 72,
       "text_characters": 30884,
-      "relative_path": "week_23_copilot_integrations/presentations/Berkeley_Enterprise_Agent_Workflows.pdf",
+      "relative_path": "week_21_copilot_integrations/presentations/Berkeley_Enterprise_Agent_Workflows.pdf",
       "bytes": 8395110,
       "sha256": "4fc8fd54821187eadb329f2e975e2a697be2c059012d0f8c6215a0cc48540117",
       "retrieved_at": "2026-10-18",
@@ -1854,11 +1854,11 @@
       "topic_fit": "Связь M365/внешних источников с проверяемыми действиями: вход→проверка прав→источник→результат→тест. Обсудите, какой фактический результат должен остаться после вызова action.",
       "teaching_note": "Лекция ServiceNow в UC Berkeley описывает корпоративные принципы. Она не документирует Microsoft365. Доступ, connections и публикация Copilot выполняются по официальным Microsoft Learn snapshots и отдельной лабораторной.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_23_copilot_integrations/presentations/README.md",
+      "reading_guide": "week_21_copilot_integrations/presentations/README.md",
       "modified": false
     },
     {
-      "week": 23,
+      "week": 21,
       "filename": "Microsoft_Agent_Flow.html",
       "title": "Create a flow for an agent",
       "institution": "Microsoft Learn",
@@ -1870,7 +1870,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-flow-create",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_23_copilot_integrations/presentations/Microsoft_Agent_Flow.html",
+      "relative_path": "week_21_copilot_integrations/presentations/Microsoft_Agent_Flow.html",
       "bytes": 50508,
       "sha256": "76be600d76a5223bdcfda770babf7f89c2e0ee69f7c263acc1351e8f3c82a9b5",
       "retrieved_at": "2026-10-18",
@@ -1879,10 +1879,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Настоящий action через agent flow, inputs/outputs и настройка connections.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_23_copilot_integrations/presentations/README.md"
+      "reading_guide": "week_21_copilot_integrations/presentations/README.md"
     },
     {
-      "week": 23,
+      "week": 21,
       "filename": "Microsoft_End_User_Authentication.html",
       "title": "Configure end-user authentication",
       "institution": "Microsoft Learn",
@@ -1894,7 +1894,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_23_copilot_integrations/presentations/Microsoft_End_User_Authentication.html",
+      "relative_path": "week_21_copilot_integrations/presentations/Microsoft_End_User_Authentication.html",
       "bytes": 63013,
       "sha256": "89618b103510590ad7e5e67336f19561f27a68ae7281b9e72f5aec74f55c386c",
       "retrieved_at": "2026-10-18",
@@ -1903,10 +1903,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Сопоставить право пользователя и доступ к источнику; не приравнивать agent-owner connection к разрешению любого пользователя.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_23_copilot_integrations/presentations/README.md"
+      "reading_guide": "week_21_copilot_integrations/presentations/README.md"
     },
     {
-      "week": 23,
+      "week": 21,
       "filename": "Microsoft_Publish_Channels.html",
       "title": "Publish your agent",
       "institution": "Microsoft Learn",
@@ -1918,7 +1918,7 @@
       "retrieved_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels",
       "content_type": "text/html",
       "pages": null,
-      "relative_path": "week_23_copilot_integrations/presentations/Microsoft_Publish_Channels.html",
+      "relative_path": "week_21_copilot_integrations/presentations/Microsoft_Publish_Channels.html",
       "bytes": 63481,
       "sha256": "eeae1c67a3306b9f07c4482060029744d389f54856961a4f478af7b72895258c",
       "retrieved_at": "2026-10-18",
@@ -1927,10 +1927,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Проверка и публикация в доступный канал, включая Teams/M365 при доступности в tenant.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_23_copilot_integrations/presentations/README.md"
+      "reading_guide": "week_21_copilot_integrations/presentations/README.md"
     },
     {
-      "week": 24,
+      "week": 22,
       "filename": "Stanford_CS329S_Data_Engineering.pdf",
       "title": "CS329S Lecture 3: Data Engineering (2021)",
       "institution": "Stanford University; Chip Huyen",
@@ -1943,7 +1943,7 @@
       "content_type": "application/pdf",
       "pages": 86,
       "text_characters": 19399,
-      "relative_path": "week_24_n8n_workflows/presentations/Stanford_CS329S_Data_Engineering.pdf",
+      "relative_path": "week_22_n8n_workflows/presentations/Stanford_CS329S_Data_Engineering.pdf",
       "bytes": 3384040,
       "sha256": "318bda5b7e671e09d8f27e6a57e6652bb5ac3581878f719796e01b3bde8f1a5e",
       "retrieved_at": "2026-10-18",
@@ -1974,11 +1974,11 @@
       "topic_fit": "Подготовка к n8n: различать item/JSON, преобразование, SQL-запрос, триггер и сетевой ответ; понять, почему API может вернуть ошибку.",
       "teaching_note": "Оригинальный PDF экспортирован из публичной Google Slides, на которую ссылается официальный syllabus Stanford CS329S2021. Названия n8n-узлов и импорт workflow изучаются по документации n8n и N8N_LAB.md.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_24_n8n_workflows/presentations/README.md",
+      "reading_guide": "week_22_n8n_workflows/presentations/README.md",
       "modified": false
     },
     {
-      "week": 24,
+      "week": 22,
       "filename": "n8n_Error_Handling.md",
       "title": "Error handling",
       "institution": "n8n",
@@ -1990,7 +1990,7 @@
       "retrieved_url": "https://docs.n8n.io/build/flow-logic/handle-errors-gracefully.md",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_24_n8n_workflows/presentations/n8n_Error_Handling.md",
+      "relative_path": "week_22_n8n_workflows/presentations/n8n_Error_Handling.md",
       "bytes": 5777,
       "sha256": "7429c6e4d77152bf38762c04075b0bebdec393ca578c62300cecd8f6be2d1ba7",
       "retrieved_at": "2026-10-18",
@@ -1999,10 +1999,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Error Trigger, статус выполнения и отладка отдельного error workflow.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_24_n8n_workflows/presentations/README.md"
+      "reading_guide": "week_22_n8n_workflows/presentations/README.md"
     },
     {
-      "week": 24,
+      "week": 22,
       "filename": "n8n_HTTP_Request.md",
       "title": "HTTP Request node",
       "institution": "n8n",
@@ -2014,7 +2014,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.httprequest",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_24_n8n_workflows/presentations/n8n_HTTP_Request.md",
+      "relative_path": "week_22_n8n_workflows/presentations/n8n_HTTP_Request.md",
       "bytes": 19974,
       "sha256": "a47659d9dfc0c83c88daef8dd4abde96a474ab3e61ae64b77974068d1ab1f008",
       "retrieved_at": "2026-10-18",
@@ -2023,10 +2023,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "GET к локальному fixture server, разбор response и контролируемая обработка503.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_24_n8n_workflows/presentations/README.md"
+      "reading_guide": "week_22_n8n_workflows/presentations/README.md"
     },
     {
-      "week": 24,
+      "week": 22,
       "filename": "n8n_Import_Export.md",
       "title": "Export and import workflows",
       "institution": "n8n",
@@ -2038,7 +2038,7 @@
       "retrieved_url": "https://docs.n8n.io/build/manage-workflows/export-and-import.md",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_24_n8n_workflows/presentations/n8n_Import_Export.md",
+      "relative_path": "week_22_n8n_workflows/presentations/n8n_Import_Export.md",
       "bytes": 5232,
       "sha256": "11c939725f4a7a039ff7147097671c8141a0c27b8f7fccc835b1431fca4c12b0",
       "retrieved_at": "2026-10-18",
@@ -2047,10 +2047,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Импорт настоящих workflow JSON в practice; credentials добавляются отдельно.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_24_n8n_workflows/presentations/README.md"
+      "reading_guide": "week_22_n8n_workflows/presentations/README.md"
     },
     {
-      "week": 24,
+      "week": 22,
       "filename": "n8n_Postgres.md",
       "title": "Postgres node",
       "institution": "n8n",
@@ -2062,7 +2062,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postgres",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_24_n8n_workflows/presentations/n8n_Postgres.md",
+      "relative_path": "week_22_n8n_workflows/presentations/n8n_Postgres.md",
       "bytes": 17745,
       "sha256": "653f499ab9fe07a882a28562e32447e442a0e3c32e3c93a0ed2b380b7af29605",
       "retrieved_at": "2026-10-18",
@@ -2071,10 +2071,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "SQL с параметрами, отдельно от SQL-синтаксиса; импортируемый узел использует безопасный placeholder.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_24_n8n_workflows/presentations/README.md"
+      "reading_guide": "week_22_n8n_workflows/presentations/README.md"
     },
     {
-      "week": 25,
+      "week": 23,
       "filename": "Stanford_CS224N_LLM_Agents.pdf",
       "title": "CS224N Lecture 14: Reasoning and Agents (2024)",
       "institution": "Stanford University; Shikhar Murty",
@@ -2087,7 +2087,7 @@
       "content_type": "application/pdf",
       "pages": 75,
       "text_characters": 16657,
-      "relative_path": "week_25_n8n_ai_agents/presentations/Stanford_CS224N_LLM_Agents.pdf",
+      "relative_path": "week_23_n8n_ai_agents/presentations/Stanford_CS224N_LLM_Agents.pdf",
       "bytes": 9650721,
       "sha256": "98600f157d8a9ae7ea0e69fa60c1ee2e34be6e9f5d324cc026821629caf80769",
       "retrieved_at": "2026-10-18",
@@ -2116,11 +2116,11 @@
       "topic_fit": "Основа для AI Agent + tools + memory в n8n и объяснение, зачем ограничивать инструменты, число шагов и оценивать полную цепочку.",
       "teaching_note": "Схемы и графики относятся к исследовательским системам2024. Инструкции по текущим AI-узлам находятся в официальной документации. В лабораторной наблюдаемость означает tool inputs/outputs/status, а не запрос скрытых рассуждений модели.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_25_n8n_ai_agents/presentations/README.md",
+      "reading_guide": "week_23_n8n_ai_agents/presentations/README.md",
       "modified": false
     },
     {
-      "week": 25,
+      "week": 23,
       "filename": "n8n_AI_Agent.md",
       "title": "AI Agent node",
       "institution": "n8n",
@@ -2132,7 +2132,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_25_n8n_ai_agents/presentations/n8n_AI_Agent.md",
+      "relative_path": "week_23_n8n_ai_agents/presentations/n8n_AI_Agent.md",
       "bytes": 4045,
       "sha256": "a0e1fa35d5447b90f5f6dedb8fde20cd0a588adcee7f2c47a8cf3a931a370615",
       "retrieved_at": "2026-10-18",
@@ -2141,10 +2141,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Назначение AI Agent root node; соединения tools/model/memory.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_25_n8n_ai_agents/presentations/README.md"
+      "reading_guide": "week_23_n8n_ai_agents/presentations/README.md"
     },
     {
-      "week": 25,
+      "week": 23,
       "filename": "n8n_Code_Tool.md",
       "title": "Code Tool node",
       "institution": "n8n",
@@ -2156,7 +2156,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcode",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_25_n8n_ai_agents/presentations/n8n_Code_Tool.md",
+      "relative_path": "week_23_n8n_ai_agents/presentations/n8n_Code_Tool.md",
       "bytes": 3586,
       "sha256": "9bbc0647bc5f7ed22ba9db369c6d5df2ec894fd52e5e6d63abf9c3160d4f2f2c",
       "retrieved_at": "2026-10-18",
@@ -2165,10 +2165,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Назначение инструмента, схема входа и проверяемый результат; параметры сверять с установленной версиейUI.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_25_n8n_ai_agents/presentations/README.md"
+      "reading_guide": "week_23_n8n_ai_agents/presentations/README.md"
     },
     {
-      "week": 25,
+      "week": 23,
       "filename": "n8n_OpenAI_Chat_Model.md",
       "title": "OpenAI Chat Model node",
       "institution": "n8n",
@@ -2180,7 +2180,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenai",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_25_n8n_ai_agents/presentations/n8n_OpenAI_Chat_Model.md",
+      "relative_path": "week_23_n8n_ai_agents/presentations/n8n_OpenAI_Chat_Model.md",
       "bytes": 9523,
       "sha256": "5d209128486d25ea2ba454d6419231ab3d18da084a65237504ba9002124e39a1",
       "retrieved_at": "2026-10-18",
@@ -2189,10 +2189,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Реальный credential и доступная модель выбираются в интерфейсе; fixture не подтверждает live доступ.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_25_n8n_ai_agents/presentations/README.md"
+      "reading_guide": "week_23_n8n_ai_agents/presentations/README.md"
     },
     {
-      "week": 25,
+      "week": 23,
       "filename": "n8n_Simple_Memory.md",
       "title": "Simple Memory node",
       "institution": "n8n",
@@ -2204,7 +2204,7 @@
       "retrieved_url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow",
       "content_type": "text/plain; charset=utf-8",
       "pages": null,
-      "relative_path": "week_25_n8n_ai_agents/presentations/n8n_Simple_Memory.md",
+      "relative_path": "week_23_n8n_ai_agents/presentations/n8n_Simple_Memory.md",
       "bytes": 3785,
       "sha256": "9cf6b389a3ad6a3e49f9cb87575d1f1288fc4e9d9d1bb974af1b3d95445726cd",
       "retrieved_at": "2026-10-18",
@@ -2213,10 +2213,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Разделение сессий и границы короткой памяти; это не база знаний.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_25_n8n_ai_agents/presentations/README.md"
+      "reading_guide": "week_23_n8n_ai_agents/presentations/README.md"
     },
     {
-      "week": 26,
+      "week": 24,
       "filename": "Stanford_CS224N_Final_Project.pdf",
       "title": "CS224N Lecture 7: Attention and Final Projects; Practical Tips (2024)",
       "institution": "Stanford University; Christopher Manning",
@@ -2229,7 +2229,7 @@
       "content_type": "application/pdf",
       "pages": 73,
       "text_characters": 36684,
-      "relative_path": "week_26_final_project/presentations/Stanford_CS224N_Final_Project.pdf",
+      "relative_path": "week_24_final_project/presentations/Stanford_CS224N_Final_Project.pdf",
       "bytes": 5941889,
       "sha256": "51c9877484ba486889b3b216c6def1984c41f93be6009d5d7c236b5926b069a7",
       "retrieved_at": "2026-10-18",
@@ -2253,13 +2253,13 @@
       "recommended_minutes": 20,
       "level": "Начальный маршрут по проектной дисциплине; NLP-архитектуры и собственные исследования необязательны.",
       "topic_fit": "Подготовка защиты: доказать результат экспериментом, показать baseline и ошибки, объяснить ограничения. Страница41 помогает структурировать отчёт,68 — защитить test set.",
-      "teaching_note": "Оценочные веса, дедлайны, требования к GPU и Stanford-specific credits из оригинального курса не применяются к Tech Orda. Используйте локальную рубрику Homework_Week_26.md и PROJECT_TEMPLATE.md.",
+      "teaching_note": "Оценочные веса, дедлайны, требования к GPU и Stanford-specific credits из оригинального курса не применяются к Tech Orda. Используйте локальную рубрику Homework_Week_24.md и PROJECT_TEMPLATE.md.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_26_final_project/presentations/README.md",
+      "reading_guide": "week_24_final_project/presentations/README.md",
       "modified": false
     },
     {
-      "week": 26,
+      "week": 24,
       "filename": "Stanford_CS329S_ML_System_Design.pdf",
       "title": "CS329S: Designing an ML System (2021)",
       "institution": "Stanford University; Chip Huyen",
@@ -2272,7 +2272,7 @@
       "content_type": "application/pdf",
       "pages": 92,
       "text_characters": 20950,
-      "relative_path": "week_26_final_project/presentations/Stanford_CS329S_ML_System_Design.pdf",
+      "relative_path": "week_24_final_project/presentations/Stanford_CS329S_ML_System_Design.pdf",
       "bytes": 6596666,
       "sha256": "0fa174351fbacfbcd709e8bf8c271d26971f84c28bd2e9245444ac8dea5a742c",
       "retrieved_at": "2026-10-18",
@@ -2316,11 +2316,11 @@
       "topic_fit": "Завершение и локальная демонстрация проекта: связать метрику с пользователем, зафиксировать входы/выходы и определить условия повторного обучения.",
       "teaching_note": "Чтение выборочное: ключевой блок для защиты39–44 и62–70. Наша минимальная CLI-демонстрация работает локально; внешняя публикация и облачные сервисы не требуются.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_26_final_project/presentations/README.md",
+      "reading_guide": "week_24_final_project/presentations/README.md",
       "modified": false
     },
     {
-      "week": 26,
+      "week": 24,
       "filename": "sklearn_Common_Pitfalls.html",
       "title": "Common pitfalls and recommended practices",
       "institution": "scikit-learn developers",
@@ -2332,7 +2332,7 @@
       "retrieved_url": "https://scikit-learn.org/stable/common_pitfalls.html",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_26_final_project/presentations/sklearn_Common_Pitfalls.html",
+      "relative_path": "week_24_final_project/presentations/sklearn_Common_Pitfalls.html",
       "bytes": 109748,
       "sha256": "21fac11c181ab35624dcf8673f0475d403d4f6ecf0f9bead01a573d7642b515c",
       "retrieved_at": "2026-10-18",
@@ -2341,10 +2341,10 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Pipeline, fit только на train, фиксированная случайность и честная оценка.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_26_final_project/presentations/README.md"
+      "reading_guide": "week_24_final_project/presentations/README.md"
     },
     {
-      "week": 26,
+      "week": 24,
       "filename": "sklearn_Model_Persistence.html",
       "title": "Model persistence",
       "institution": "scikit-learn developers",
@@ -2356,7 +2356,7 @@
       "retrieved_url": "https://scikit-learn.org/stable/model_persistence.html",
       "content_type": "text/html; charset=utf-8",
       "pages": null,
-      "relative_path": "week_26_final_project/presentations/sklearn_Model_Persistence.html",
+      "relative_path": "week_24_final_project/presentations/sklearn_Model_Persistence.html",
       "bytes": 83183,
       "sha256": "633b36141e36e011f2c3b74e2bfb7a768fb0ae7e07a1cf5df883cb595efad8ce",
       "retrieved_at": "2026-10-18",
@@ -2365,7 +2365,47 @@
       "level": "Начальный справочник для практического задания",
       "topic_fit": "Фиксация версий и происхождения модели перед локальным показом; доверять только известным артефактам.",
       "retrieved_date": "2026-10-18",
-      "reading_guide": "week_26_final_project/presentations/README.md"
+      "reading_guide": "week_24_final_project/presentations/README.md"
+    },
+    {
+      "week": 3,
+      "relative_path": "week_03_pandas_files/presentations/Week_03_Thursday_Files_Merge_City_Trips.pptx",
+      "filename": "Week_03_Thursday_Files_Merge_City_Trips.pptx",
+      "bytes": 193540,
+      "sha256": "f60b0a673bd7c6e0a8c99d98c7e830725e3551b136fa012027a0995564154ad7",
+      "note": "Existing instructor upload; cataloged during renumbering. Original source provenance not independently verified."
+    },
+    {
+      "week": 3,
+      "relative_path": "week_03_pandas_files/presentations/Week_03_Tuesday_Pandas_City_Trips.pptx",
+      "filename": "Week_03_Tuesday_Pandas_City_Trips.pptx",
+      "bytes": 187517,
+      "sha256": "fc76fb6bcfad2c11bb419aa82802f9e243dbe306058d6b0e41f119ab6e71b239",
+      "note": "Existing instructor upload; cataloged during renumbering. Original source provenance not independently verified."
+    },
+    {
+      "week": 3,
+      "relative_path": "week_03_pandas_files/presentations/Week_03_Tuesday_Pandas_City_Trips.pdf",
+      "filename": "Week_03_Tuesday_Pandas_City_Trips.pdf",
+      "bytes": 317363,
+      "sha256": "7e24aae4039f388a13c9704123fbe48efae7addac7a5adb8ecadc92f43361d67",
+      "note": "Existing instructor upload; cataloged during renumbering. Original source provenance not independently verified."
+    },
+    {
+      "week": 3,
+      "relative_path": "week_03_pandas_files/presentations/Week_03_Thursday_Files_Merge_City_Trips.pdf",
+      "filename": "Week_03_Thursday_Files_Merge_City_Trips.pdf",
+      "bytes": 354166,
+      "sha256": "5840d65507e94eae7643fef538d8a6285213548687b044a3152795bfa9de1aa7",
+      "note": "Existing instructor upload; cataloged during renumbering. Original source provenance not independently verified."
+    },
+    {
+      "week": 1,
+      "relative_path": "week_01_intro_ds_ai/presentations/Lecture 1 - Part 2 MLnAI.pdf",
+      "filename": "Lecture 1 - Part 2 MLnAI.pdf",
+      "bytes": 1231859,
+      "sha256": "80ea623cb2720539553b9d2d82ba0abd0aae6fe59e4e1e993285b3a681401ad4",
+      "note": "Existing instructor upload; cataloged during renumbering. Original source provenance not independently verified."
     }
   ]
 }

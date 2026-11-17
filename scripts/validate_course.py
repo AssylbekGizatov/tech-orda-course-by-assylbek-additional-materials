@@ -25,8 +25,8 @@ from pathlib import Path, PurePosixPath
 import re
 import sys
 
-EXPECTED_WEEKS = 26
-EXPECTED_NOTEBOOKS = 54
+EXPECTED_WEEKS = 24
+EXPECTED_NOTEBOOKS = 57
 EXPECTED_ACADEMIC_HOURS = 104
 EXPECTED_MODULE_HOURS = {1: 4, 2: 8, 3: 6, 4: 8, 5: 6, 6: 12, 7: 8,
                          8: 4, 9: 6, 10: 8, 11: 6, 12: 8, 13: 8, 14: 8, 15: 4}
@@ -96,21 +96,21 @@ def finite_number(value):
 def check_course_plan(root: Path, audit: Audit):
     plan = load_json(root / "course_plan.json", audit)
     if not isinstance(plan, list):
-        audit.error("plan_shape", "course_plan.json", "Expected a list of 26 week objects.")
+        audit.error("plan_shape", "course_plan.json", "Expected a list of 24 block objects.")
         return {}, set(), set()
     weeks, presentation_files, notebook_files = {}, set(), set()
     module_hours = Counter()
     total_hours = total_minutes = total_theory = total_practice = session_count = 0
     if len(plan) != EXPECTED_WEEKS:
-        audit.error("week_count", "course_plan.json", f"Expected 26 weeks, found {len(plan)}.")
+        audit.error("week_count", "course_plan.json", f"Expected 24 blocks, found {len(plan)}.")
     for position, entry in enumerate(plan):
         location = f"course_plan.json[{position}]"
         if not isinstance(entry, dict):
             audit.error("week_shape", location, "Week must be an object.")
             continue
         number = entry.get("week")
-        if not isinstance(number, int) or isinstance(number, bool) or not 1 <= number <= 26:
-            audit.error("week_number", location, "Week must be an integer in 1..26.")
+        if not isinstance(number, int) or isinstance(number, bool) or not 1 <= number <= 24:
+            audit.error("week_number", location, "Week must be an integer in 1..24.")
             continue
         if number in weeks:
             audit.error("duplicate_week", location, number)
@@ -133,6 +133,8 @@ def check_course_plan(root: Path, audit: Audit):
         for dirname in ("practice", "homework"):
             found = {path for path in (folder / dirname).glob("*.ipynb") if path.is_file()}
             notebook_files.update(found)
+            if number == 12:
+                notebook_files.update(folder.glob(f"sql_*/{dirname}/*.ipynb"))
             if not found:
                 audit.error("missing_notebook", folder / dirname, "At least one notebook is required.")
         dataset_files = [path for path in (folder / "datasets").rglob("*")
@@ -144,18 +146,20 @@ def check_course_plan(root: Path, audit: Audit):
                           if path.is_file() and path.suffix.lower() in PRESENTATION_SUFFIXES
                           and path.name.lower() != "readme.md"}
         presentation_files.update(material_files)
+        if number == 12:
+            presentation_files.update(p for p in folder.glob("sql_*/presentations/*") if p.is_file() and p.suffix.lower() in PRESENTATION_SUFFIXES and p.name.lower() != "readme.md")
         if not material_files:
             audit.error("missing_presentation_material", folder / "presentations", "Expected a local PDF, PPT/PPTX, HTML or Markdown resource in addition to README.md.")
         hours, minutes = entry.get("academic_hours"), entry.get("clock_minutes")
-        if hours != 4 or minutes != 180:
-            audit.error("weekly_hours", location, "Each week must contain 4 academic hours = 180 clock minutes.")
+        if hours != (12 if number == 12 else 4) or minutes != (540 if number == 12 else 180):
+            audit.error("weekly_hours", location, "Each block contains 4 hours / 180 minutes, except block 12: 12 hours / 540 minutes.")
         if finite_number(hours):
             total_hours += hours
         if finite_number(minutes):
             total_minutes += minutes
         sessions = entry.get("sessions")
-        if not isinstance(sessions, list) or len(sessions) != 2:
-            audit.error("session_count", location, "Each week must have two 90-minute sessions.")
+        if not isinstance(sessions, list) or len(sessions) != (6 if number == 12 else 2):
+            audit.error("session_count", location, "Each block has two 90-minute sessions, except block 12: six.")
             continue
         for index, session in enumerate(sessions):
             session_location = f"{location}.sessions[{index}]"
@@ -176,8 +180,8 @@ def check_course_plan(root: Path, audit: Audit):
                 module_hours[module] += academic
             else:
                 audit.error("module_hours", session_location, "Module and academic_hours must be numeric identifiers/hours.")
-    if set(weeks) != set(range(1, 27)):
-        audit.error("week_coverage", "course_plan.json", "Week numbers must cover 1..26 exactly.")
+    if set(weeks) != set(range(1, 25)):
+        audit.error("week_coverage", "course_plan.json", "Week numbers must cover 1..24 exactly.")
     actual_week_dirs = {path.resolve() for path in root.glob("week_*") if path.is_dir()}
     if actual_week_dirs != set(weeks.values()):
         audit.error("week_directory_coverage", root, "Week folders differ from the course plan.")
@@ -265,7 +269,7 @@ def check_notebooks(root: Path, paths: set[Path], audit: Audit):
         audit.error("validation_report_shape", report_path, "Expected canonical report with results list.")
         return
     if len(paths) != EXPECTED_NOTEBOOKS or len(report["results"]) != EXPECTED_NOTEBOOKS:
-        audit.error("notebook_count", root, f"Expected 54 files and 54 records; found {len(paths)} files and {len(report['results'])} records.")
+        audit.error("notebook_count", root, f"Expected 57 files and 57 records; found {len(paths)} files and {len(report['results'])} records.")
     seen, totals = set(), Counter()
     for index, record in enumerate(report["results"]):
         location = f"validation_all.json.results[{index}]"
@@ -288,8 +292,8 @@ def check_notebooks(root: Path, paths: set[Path], audit: Audit):
         missing = sorted(str(path.relative_to(root)) for path in paths - seen)
         audit.error("notebook_record_coverage", report_path, f"Report coverage differs from files. Missing records: {missing}")
     summary = report.get("summary", {})
-    if not isinstance(summary, dict) or summary.get("total") != 54 or summary.get("passed") != 54 or summary.get("failed") != 0:
-        audit.error("validation_summary", report_path, "Canonical summary must report 54 passed, 0 failed.")
+    if not isinstance(summary, dict) or summary.get("total") != EXPECTED_NOTEBOOKS or summary.get("passed") != EXPECTED_NOTEBOOKS or summary.get("failed") != 0:
+        audit.error("validation_summary", report_path, "Canonical summary must report 57 passed, 0 failed.")
     elif summary.get("executed_code_cells") != totals["executed_code_cells"] or summary.get("image_outputs") != totals["image_outputs"]:
         audit.error("validation_summary_counts", report_path, "Summary code/image counts differ from actual notebooks.")
     audit.metrics["notebooks"] = {"total": len(paths), "practice": sum(path.parent.name == "practice" for path in paths),
@@ -369,6 +373,7 @@ def main():
     parser.add_argument("--catalog", type=Path, help="Catalog path, relative to repository root unless absolute")
     parser.add_argument("--require-catalog", action="store_true", help="Fail if catalog is missing or presentation files are unlisted")
     parser.add_argument("--json", action="store_true", help="Print machine-readable results to stdout; no file is written")
+    parser.add_argument("--structure-only", action="store_true", help="Check schedule/catalog only; skip historical execution report")
     args = parser.parse_args()
     root = args.root.resolve()
     if args.catalog:
@@ -379,7 +384,10 @@ def main():
             catalog = root / "00_course_admin" / "RESOURCE_CATALOG.json"
     audit = Audit()
     weeks, presentations, notebooks = check_course_plan(root, audit)
-    check_notebooks(root, notebooks, audit)
+    if not args.structure_only:
+        check_notebooks(root, notebooks, audit)
+    else:
+        audit.metrics["notebook_files_not_executed"] = len(notebooks)
     check_catalog(root, weeks, presentations, catalog, args.require_catalog, audit)
     result = {"status": "passed" if not audit.errors else "failed", "read_only": True,
               "metrics": audit.metrics, "errors": audit.errors, "warnings": audit.warnings}

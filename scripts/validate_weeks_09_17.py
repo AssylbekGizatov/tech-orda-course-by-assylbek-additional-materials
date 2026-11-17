@@ -73,8 +73,8 @@ def main():
     if args.only:
         paths = [ROOT / relative for relative in args.only]
     else:
-        paths = sorted(p for p in ROOT.glob("week_*/*/*.ipynb")
-                       if args.all or 9 <= int(p.parent.parent.name.split("_")[1]) <= 17)
+        paths = sorted(p for p in ROOT.glob("week_*/**/*.ipynb")
+                       if args.all or 9 <= int(p.relative_to(ROOT).parts[0].split("_")[1]) <= 17)
     previous = json.loads(result_path.read_text()) if args.only and result_path.exists() else {"results": []}
     records = {entry["path"]: entry for entry in previous["results"]}
     for path in paths:
@@ -109,7 +109,7 @@ def main():
                           traceback=traceback.format_exc()[-18000:], outputs_saved=False)
         record["duration_seconds"] = round(time.monotonic() - started, 3)
         records[relative] = record
-        report = {"scope": "all 26 weeks" if args.all else "weeks 09–17", "executor": "nbclient real Jupyter kernels",
+        report = {"scope": "all 24 blocks" if args.all else "weeks 09–17", "executor": "nbclient real Jupyter kernels",
                   "timestamp_utc": datetime.now(timezone.utc).isoformat(),
                   "versions_file": str(version_path.relative_to(ROOT)),
                   "summary": {"total": len(records), "passed": sum(r["status"] == "passed" for r in records.values()),

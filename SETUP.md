@@ -6,7 +6,7 @@
 
 Рекомендуется **Python 3.12**; общий контрольный прогон выполнен на Python 3.12.14, Linux x86_64, CPU. Установите Python для своей операционной системы с [официального сайта](https://www.python.org/downloads/), выбрав ветку 3.12. Native Windows и macOS не входили в общий compatibility gate; доступность колёс полного DL-набора зависит от платформы.
 
-Скачайте или клонируйте весь репозиторий и распакуйте архив, если он был скачан как ZIP. Откройте терминал **в корне курса**: там должны находиться `README.md`, `course_plan.json`, `requirements-core.txt` и папки `week_01_...` — `week_26_...`. Отдельно скачанный `.ipynb` не содержит все нужные ему датасеты.
+Скачайте или клонируйте весь репозиторий и распакуйте архив, если он был скачан как ZIP. Откройте терминал **в корне курса**: там должны находиться `README.md`, `course_plan.json`, `requirements-core.txt` и папки `week_01_...` — `week_24_...`. Отдельно скачанный `.ipynb` не содержит все нужные ему датасеты.
 
 ## 2. Создайте окружение и установите базовые пакеты
 
@@ -59,7 +59,7 @@ py -3.12 -m venv .venv
 | Набор | Содержание | Где нужен |
 |---|---|---|
 | [requirements-core.txt](requirements-core.txt) | NumPy, pandas, SciPy, scikit-learn, визуализация и средства исполнения notebook | Базовый курс, классический ML и offline-часть AI-интеграций |
-| [requirements-ml.txt](requirements-ml.txt) | Core плюс XGBoost, LightGBM, SHAP, LIME, PyTorch, TensorFlow/Keras | Полный набор для всех 54 notebooks; особенно недели 13, 16, 17 |
+| [requirements-ml.txt](requirements-ml.txt) | Core плюс XGBoost, LightGBM, SHAP, LIME, PyTorch, TensorFlow/Keras | Полный набор для всех 54 notebooks; особенно недели 11, 16, 17 |
 | [00_course_admin/requirements-qa-lock.txt](00_course_admin/requirements-qa-lock.txt) | Общие и транзитивные версии проверенной среды | Constraints для воспроизводимости; ориентир для Linux x86_64 / Python 3.12 |
 
 В активном окружении macOS/Linux:
@@ -86,9 +86,9 @@ python -m pip install -r requirements-ml.txt
 
 ## 6. Переходите к API и облачным сервисам по отдельным лабораторным
 
-Для OpenAI API следуйте [LIVE_API_LAB.md недели 20](week_20_gpt_api_chatbot/practice/LIVE_API_LAB.md): установка live-зависимостей, переменные окружения, выбор доступной модели и явный запуск клиента описаны там. Основной notebook не отправляет запросов к платной модели. Локальная база знаний и retrieval недели 21 также работают без API.
+Для OpenAI API следуйте [LIVE_API_LAB.md недели 18](week_18_gpt_api_chatbot/practice/LIVE_API_LAB.md): установка live-зависимостей, переменные окружения, выбор доступной модели и явный запуск клиента описаны там. Основной notebook не отправляет запросов к платной модели. Локальная база знаний и retrieval недели 19 также работают без API.
 
-Для [Copilot Studio](week_22_copilot_basics/practice/COPILOT_STUDIO_LAB.md), [интеграций Microsoft 365](week_23_copilot_integrations/practice/COPILOT_INTEGRATIONS_LAB.md), [n8n workflows](week_24_n8n_workflows/practice/N8N_LAB.md) и [n8n AI Agent](week_25_n8n_ai_agents/practice/N8N_AI_AGENT_LAB.md) используйте пошаговые инструкции в соответствующих неделях. В них указаны реальные действия в интерфейсе, импорт JSON, настройка credentials и ожидаемые подтверждения.
+Для [Copilot Studio](week_20_copilot_basics/practice/COPILOT_STUDIO_LAB.md), [интеграций Microsoft 365](week_21_copilot_integrations/practice/COPILOT_INTEGRATIONS_LAB.md), [n8n workflows](week_22_n8n_workflows/practice/N8N_LAB.md) и [n8n AI Agent](week_23_n8n_ai_agents/practice/N8N_AI_AGENT_LAB.md) используйте пошаговые инструкции в соответствующих неделях. В них указаны реальные действия в интерфейсе, импорт JSON, настройка credentials и ожидаемые подтверждения.
 
 Локальная симуляция иллюстрирует алгоритм и проверяет учебный контракт. Реальный запуск в сервисе записывается отдельным результатом с датой и доступной версией. Учебные файлы не содержат секретов; персональные ключи и credentials храните в окружении или предусмотренном сервисом хранилище.
 

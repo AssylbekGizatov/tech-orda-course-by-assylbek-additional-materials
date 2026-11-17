@@ -20,7 +20,8 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 1
   },
   {
     "week": 2,
@@ -43,7 +44,8 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 2
   },
   {
     "week": 3,
@@ -66,57 +68,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 3
   },
   {
     "week": 4,
-    "folder": "week_04_sql_basics",
-    "title": "SQL: основы, JOIN и GROUP BY",
-    "academic_hours": 4,
-    "clock_minutes": 180,
-    "sessions": [
-      {
-        "module": 3,
-        "topic": "SELECT, WHERE, агрегация и GROUP BY",
-        "academic_hours": 2,
-        "theory_minutes": 36,
-        "practice_minutes": 54
-      },
-      {
-        "module": 3,
-        "topic": "JOIN и подзапросы",
-        "academic_hours": 2,
-        "theory_minutes": 36,
-        "practice_minutes": 54
-      }
-    ]
-  },
-  {
-    "week": 5,
-    "folder": "week_05_sql_windows_eda",
-    "title": "Оконные SQL-функции и начало EDA",
-    "academic_hours": 4,
-    "clock_minutes": 180,
-    "sessions": [
-      {
-        "module": 3,
-        "topic": "Оконные функции и интеграция SQL с pandas",
-        "academic_hours": 2,
-        "theory_minutes": 36,
-        "practice_minutes": 54
-      },
-      {
-        "module": 4,
-        "topic": "Описательная статистика, распределения и EDA",
-        "academic_hours": 2,
-        "theory_minutes": 36,
-        "practice_minutes": 54
-      }
-    ]
-  },
-  {
-    "week": 6,
-    "folder": "week_06_eda_visualization",
+    "folder": "week_04_eda_visualization",
     "title": "EDA: визуализация и корреляции",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -135,11 +92,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 6
   },
   {
-    "week": 7,
-    "folder": "week_07_storytelling_cleaning",
+    "week": 5,
+    "folder": "week_05_storytelling_cleaning",
     "title": "Data storytelling и очистка данных",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -158,11 +116,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 7
   },
   {
-    "week": 8,
-    "folder": "week_08_preprocessing_pipelines",
+    "week": 6,
+    "folder": "week_06_preprocessing_pipelines",
     "title": "Feature engineering и pipelines",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -181,11 +140,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 8
   },
   {
-    "week": 9,
-    "folder": "week_09_linear_regression",
+    "week": 7,
+    "folder": "week_07_linear_regression",
     "title": "Линейная регрессия",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -204,11 +164,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 9
   },
   {
-    "week": 10,
-    "folder": "week_10_logistic_knn",
+    "week": 8,
+    "folder": "week_08_logistic_knn",
     "title": "Логистическая регрессия и kNN",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -227,11 +188,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 10
   },
   {
-    "week": 11,
-    "folder": "week_11_trees_svm",
+    "week": 9,
+    "folder": "week_09_trees_svm",
     "title": "Деревья решений и SVM",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -250,11 +212,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 11
   },
   {
-    "week": 12,
-    "folder": "week_12_random_forest",
+    "week": 10,
+    "folder": "week_10_random_forest",
     "title": "Ансамбли: Bagging и Random Forest",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -273,11 +236,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 12
   },
   {
-    "week": 13,
-    "folder": "week_13_boosting_tuning",
+    "week": 11,
+    "folder": "week_11_boosting_tuning",
     "title": "Gradient Boosting, XGBoost и LightGBM",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -296,14 +260,15 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 13
   },
   {
-    "week": 14,
-    "folder": "week_14_clustering_dimensions",
-    "title": "K-Means, DBSCAN, PCA и t-SNE",
-    "academic_hours": 4,
-    "clock_minutes": 180,
+    "week": 12,
+    "folder": "week_12_clustering_dimensions",
+    "title": "Кластеризация и снижение размерности + отложенные SQL и основы EDA",
+    "academic_hours": 12,
+    "clock_minutes": 540,
     "sessions": [
       {
         "module": 8,
@@ -318,12 +283,42 @@
         "academic_hours": 2,
         "theory_minutes": 36,
         "practice_minutes": 54
+      },
+      {
+        "module": 3,
+        "topic": "SELECT, WHERE, агрегация и GROUP BY",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 3,
+        "topic": "JOIN и подзапросы",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 3,
+        "topic": "Оконные функции и интеграция SQL с pandas",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
+      },
+      {
+        "module": 4,
+        "topic": "Описательная статистика, распределения и EDA",
+        "academic_hours": 2,
+        "theory_minutes": 36,
+        "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 14,
+    "note": "Сборный блок из шести занятий по 90 минут, а не одна календарная неделя."
   },
   {
-    "week": 15,
-    "folder": "week_15_evaluation_cv",
+    "week": 13,
+    "folder": "week_13_evaluation_cv",
     "title": "Метрики и кросс-валидация",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -342,11 +337,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 15
   },
   {
-    "week": 16,
-    "folder": "week_16_explainability_nn",
+    "week": 14,
+    "folder": "week_14_explainability_nn",
     "title": "Интерпретация моделей и введение в нейросети",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -365,11 +361,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 16
   },
   {
-    "week": 17,
-    "folder": "week_17_backprop_frameworks",
+    "week": 15,
+    "folder": "week_15_backprop_frameworks",
     "title": "Backpropagation, Keras/TensorFlow и PyTorch",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -388,11 +385,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 17
   },
   {
-    "week": 18,
-    "folder": "week_18_dl_llm_intro",
+    "week": 16,
+    "folder": "week_16_dl_llm_intro",
     "title": "Практика Deep Learning и принципы LLM",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -411,11 +409,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 18
   },
   {
-    "week": 19,
-    "folder": "week_19_prompt_engineering",
+    "week": 17,
+    "folder": "week_17_prompt_engineering",
     "title": "Prompt Engineering",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -434,11 +433,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 19
   },
   {
-    "week": 20,
-    "folder": "week_20_gpt_api_chatbot",
+    "week": 18,
+    "folder": "week_18_gpt_api_chatbot",
     "title": "GPT API и чат-бот на Python",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -457,11 +457,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 20
   },
   {
-    "week": 21,
-    "folder": "week_21_context_memory",
+    "week": 19,
+    "folder": "week_19_context_memory",
     "title": "Контекст и память чат-бота",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -480,11 +481,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 21
   },
   {
-    "week": 22,
-    "folder": "week_22_copilot_basics",
+    "week": 20,
+    "folder": "week_20_copilot_basics",
     "title": "Microsoft Copilot Studio: основы",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -503,11 +505,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 22
   },
   {
-    "week": 23,
-    "folder": "week_23_copilot_integrations",
+    "week": 21,
+    "folder": "week_21_copilot_integrations",
     "title": "Copilot Studio: интеграции и оценка",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -526,11 +529,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 23
   },
   {
-    "week": 24,
-    "folder": "week_24_n8n_workflows",
+    "week": 22,
+    "folder": "week_22_n8n_workflows",
     "title": "n8n: основы workflow",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -549,11 +553,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 24
   },
   {
-    "week": 25,
-    "folder": "week_25_n8n_ai_agents",
+    "week": 23,
+    "folder": "week_23_n8n_ai_agents",
     "title": "n8n: AI-агент с инструментами",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -572,11 +577,12 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 25
   },
   {
-    "week": 26,
-    "folder": "week_26_final_project",
+    "week": 24,
+    "folder": "week_24_final_project",
     "title": "Финальный проект и защита",
     "academic_hours": 4,
     "clock_minutes": 180,
@@ -595,6 +601,7 @@
         "theory_minutes": 36,
         "practice_minutes": 54
       }
-    ]
+    ],
+    "original_week": 26
   }
 ]

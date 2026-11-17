@@ -5,15 +5,15 @@
 # No CUDA toolkit or GPU is needed to execute the supplied notebooks.
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Week 13: genuine boosting implementations. Notebooks explicitly use CPU/hist.
+# Week 11: genuine boosting implementations. Notebooks explicitly use CPU/hist.
 xgboost==3.4.1
 lightgbm==4.7.0
 
-# Week 16: genuine local explanation libraries.
+# Week 14: genuine local explanation libraries.
 shap==0.54.1
 lime==0.2.0.1
 
-# Week 17: both genuine deep-learning frameworks, CPU execution.
+# Week 15: both genuine deep-learning frameworks, CPU execution.
 torch==2.14.1+cpu
 tensorflow-cpu==2.21.0
 keras==3.15.1

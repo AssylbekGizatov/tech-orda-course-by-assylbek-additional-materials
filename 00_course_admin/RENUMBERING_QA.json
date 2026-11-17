@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-17",
+  "method": "Each code cell executed sequentially in a fresh Python 3.12 process with IPython InteractiveShell; matplotlib Agg. Not a Jupyter kernel or complete course run. Notebook outputs were not overwritten.",
+  "results": [
+    {
+      "path": "week_04_eda_visualization/homework/Homework_Week_04.ipynb",
+      "status": "passed",
+      "sha256": "dd6b8158c6ff2b792305afb550b4386d1bc7f13454c47bd599ecf3039a5b1f87"
+    },
+    {
+      "path": "week_04_eda_visualization/practice/01_visualization_correlation.ipynb",
+      "status": "passed",
+      "sha256": "4955c26fb6478aa5b7659fa994ba9c4e352c4cf4748296d8da168a062c7bc073"
+    },
+    {
+      "path": "week_04_eda_visualization/practice/Week_04_City_Trips_Visual_EDA.ipynb",
+      "status": "passed",
+      "sha256": "1817fadf3e2a75db419aba1bfe1234846e81aa6c76bd37fa80571be4d4bd3b2e"
+    },
+    {
+      "path": "week_12_clustering_dimensions/sql_basics/homework/Homework_Week_12.ipynb",
+      "status": "passed",
+      "sha256": "37eca4a7309129a9633c9356447aeb607bd5fae877b13cd3518b61eaa7ab5add"
+    },
+    {
+      "path": "week_12_clustering_dimensions/sql_basics/practice/01_sql_store_analytics.ipynb",
+      "status": "passed",
+      "sha256": "b9db191d5054c5fe5fea2d630424b1a4215c5c63d257b29975e56aade44889ad"
+    },
+    {
+      "path": "week_12_clustering_dimensions/sql_windows_eda/homework/Homework_Week_12.ipynb",
+      "status": "passed",
+      "sha256": "3f29d67356bdfaeea87c1ff7024a2a310bc94c6c21e84712a8b1a87ef8a00424"
+    },
+    {
+      "path": "week_12_clustering_dimensions/sql_windows_eda/practice/01_sql_windows_descriptive_eda.ipynb",
+      "status": "passed",
+      "sha256": "a498864425ab33c5630e0421c3486baea86ea3fab55b72318e12f4b15911a62a"
+    }
+  ],
+  "limits": [
+    "Jupyter socket startup unavailable in this execution environment.",
+    "Other ML/DL notebooks not rerun; historical 54/54 report is unchanged and uses original paths.",
+    "Student TODO completion is not checked."
+  ]
+}

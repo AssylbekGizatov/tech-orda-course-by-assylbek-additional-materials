@@ -14,7 +14,7 @@
 
 ### 1. Скачайте всю папку курса
 
-На странице репозитория нажмите **Code → Download ZIP** и распакуйте архив. Внутри должны быть `README.md`, `SETUP.md`, файлы `requirements-...` и папки `week_01_...` — `week_26_...`.
+На странице репозитория нажмите **Code → Download ZIP** и распакуйте архив. Внутри должны быть `README.md`, `SETUP.md`, файлы `requirements-...` и папки `week_01_...` — `week_24_...`.
 
 Если уже пользуетесь Git:
 
@@ -95,40 +95,38 @@ DATA_DIR = WEEK_DIR / "datasets"
 
 ## Программа по неделям
 
-Курс рассчитан на **26 недель: 52 занятия по 90 минут**. Это **104 академических часа по 45 минут = 78 обычных часов**, плюс самостоятельная работа. Общая пропорция — 40% теории и 60% практики.
+Материалы организованы в **24 пронумерованных блока: 52 занятия по 90 минут**. Блок 12 объединяет шесть занятий и не равен одной календарной неделе. Это **104 академических часа по 45 минут = 78 обычных часов**, плюс самостоятельная работа. Общая пропорция — 40% теории и 60% практики.
 
 Начинаем с Python, SQL и анализа таблиц, переходим к машинному обучению и нейросетям, затем собираем чат-ботов и автоматизации. В конце — самостоятельный проект и защита.
 
 Нажмите на номер недели, чтобы открыть её план и материалы.
 
-| Неделя | Тема |
-|---:|---|
+| Блок | Тема |
+|---|---|
 | [01](week_01_intro_ds_ai/README.md) | Введение в Data Science и AI |
 | [02](week_02_python_numpy/README.md) | Python и NumPy |
-| [03](week_03_pandas_files/README.md) | pandas, CSV и JSON |
-| [04](week_04_sql_basics/README.md) | SQL: SELECT, JOIN, GROUP BY |
-| [05](week_05_sql_windows_eda/README.md) | Оконные функции и начало EDA |
-| [06](week_06_eda_visualization/README.md) | Визуализация и корреляции |
-| [07](week_07_storytelling_cleaning/README.md) | Data storytelling и очистка |
-| [08](week_08_preprocessing_pipelines/README.md) | Признаки и pipelines |
-| [09](week_09_linear_regression/README.md) | Линейная регрессия |
-| [10](week_10_logistic_knn/README.md) | Логистическая регрессия и kNN |
-| [11](week_11_trees_svm/README.md) | Деревья решений и SVM |
-| [12](week_12_random_forest/README.md) | Bagging и Random Forest |
-| [13](week_13_boosting_tuning/README.md) | Gradient Boosting, XGBoost, LightGBM |
-| [14](week_14_clustering_dimensions/README.md) | K-Means, DBSCAN, PCA, t-SNE |
-| [15](week_15_evaluation_cv/README.md) | Метрики и кросс-валидация |
-| [16](week_16_explainability_nn/README.md) | SHAP, LIME и первый нейрон |
-| [17](week_17_backprop_frameworks/README.md) | Backpropagation, PyTorch, Keras/TensorFlow |
-| [18](week_18_dl_llm_intro/README.md) | Валидация нейросети и принципы LLM |
-| [19](week_19_prompt_engineering/README.md) | Prompt Engineering |
-| [20](week_20_gpt_api_chatbot/README.md) | GPT API и чат-бот на Python |
-| [21](week_21_context_memory/README.md) | Контекст, память и retrieval |
-| [22](week_22_copilot_basics/README.md) | Copilot Studio: основы |
-| [23](week_23_copilot_integrations/README.md) | Copilot Studio: интеграции и оценка |
-| [24](week_24_n8n_workflows/README.md) | n8n: workflow, HTTP, SQL, ошибки |
-| [25](week_25_n8n_ai_agents/README.md) | n8n: AI-агент с инструментами |
-| [26](week_26_final_project/README.md) | Финальный проект и защита |
+| [03](week_03_pandas_files/README.md) | pandas и работа с файлами |
+| [04](week_04_eda_visualization/README.md) | EDA: визуализация и корреляции |
+| [05](week_05_storytelling_cleaning/README.md) | Data storytelling и очистка данных |
+| [06](week_06_preprocessing_pipelines/README.md) | Feature engineering и pipelines |
+| [07](week_07_linear_regression/README.md) | Линейная регрессия |
+| [08](week_08_logistic_knn/README.md) | Логистическая регрессия и kNN |
+| [09](week_09_trees_svm/README.md) | Деревья решений и SVM |
+| [10](week_10_random_forest/README.md) | Ансамбли: Bagging и Random Forest |
+| [11](week_11_boosting_tuning/README.md) | Gradient Boosting, XGBoost и LightGBM |
+| [12](week_12_clustering_dimensions/README.md) | Кластеризация и снижение размерности + отложенные SQL и основы EDA |
+| [13](week_13_evaluation_cv/README.md) | Метрики и кросс-валидация |
+| [14](week_14_explainability_nn/README.md) | Интерпретация моделей и введение в нейросети |
+| [15](week_15_backprop_frameworks/README.md) | Backpropagation, Keras/TensorFlow и PyTorch |
+| [16](week_16_dl_llm_intro/README.md) | Практика Deep Learning и принципы LLM |
+| [17](week_17_prompt_engineering/README.md) | Prompt Engineering |
+| [18](week_18_gpt_api_chatbot/README.md) | GPT API и чат-бот на Python |
+| [19](week_19_context_memory/README.md) | Контекст и память чат-бота |
+| [20](week_20_copilot_basics/README.md) | Microsoft Copilot Studio: основы |
+| [21](week_21_copilot_integrations/README.md) | Copilot Studio: интеграции и оценка |
+| [22](week_22_n8n_workflows/README.md) | n8n: основы workflow |
+| [23](week_23_n8n_ai_agents/README.md) | n8n: AI-агент с инструментами |
+| [24](week_24_final_project/README.md) | Финальный проект и защита |
 
 Точное распределение 15 модулей силлабуса по занятиям — в [календарном плане](00_course_admin/CALENDAR.md). Конкретные даты занятий уточняйте у преподавателя.
 
@@ -143,15 +141,15 @@ DATA_DIR = WEEK_DIR / "datasets"
 
 В репозитории есть **26 недельных заданий**. В [схеме оценивания](00_course_admin/ASSESSMENT.md) предложено объединение в **12 оцениваемых сдач** по силлабусу: домашние работы — 40%, промежуточный проект — 20%, финальный проект — 35%, активность — 5%. Проходной результат — не менее 70/100 с обязательной защитой финального проекта.
 
-Промежуточный проект предусмотрен на неделе 13, защита финального — на неделе 26. Конкретные даты и способ отправки работы уточняйте у преподавателя.
+Промежуточный проект предусмотрен на неделе 11, защита финального — на неделе 24. Конкретные даты и способ отправки работы уточняйте у преподавателя.
 
 ## Какие библиотеки и сервисы понадобятся дальше
 
 | Набор | Когда устанавливать |
 |---|---|
 | [requirements-core.txt](requirements-core.txt) | Для начала: Python, NumPy, pandas, SQL, графики, scikit-learn и локальные упражнения по AI |
-| [requirements-ml.txt](requirements-ml.txt) | Для расширенных практикумов, особенно недель 13, 16 и 17: XGBoost, LightGBM, SHAP, LIME, PyTorch и TensorFlow. Включает базовый набор |
-| [requirements-live.txt](requirements-live.txt) | Для отдельной лабораторной с настоящими API-вызовами; следуйте инструкции недели 20 |
+| [requirements-ml.txt](requirements-ml.txt) | Для расширенных практикумов, особенно блоков 11, 14 и 15: XGBoost, LightGBM, SHAP, LIME, PyTorch и TensorFlow. Включает базовый набор |
+| [requirements-live.txt](requirements-live.txt) | Для отдельной лабораторной с настоящими API-вызовами; следуйте инструкции недели 18 |
 
 Для полного ML-набора выполните в активном окружении:
 
@@ -165,13 +163,13 @@ python -m pip install -r requirements-ml.txt
 
 Для реальной интеграции используйте отдельные инструкции:
 
-- [Неделя 20: API и чат-бот](week_20_gpt_api_chatbot/practice/LIVE_API_LAB.md)
-- [Неделя 21: RAG-клиент](week_21_context_memory/practice/live_rag.py)
-- [Неделя 22: агент в Copilot Studio](week_22_copilot_basics/practice/COPILOT_STUDIO_LAB.md)
-- [Неделя 23: интеграции Copilot](week_23_copilot_integrations/practice/COPILOT_INTEGRATIONS_LAB.md)
-- [Неделя 24: workflow в n8n](week_24_n8n_workflows/practice/N8N_LAB.md)
-- [Неделя 25: AI-агент в n8n](week_25_n8n_ai_agents/practice/N8N_AI_AGENT_LAB.md)
-- [Неделя 26: локальная демонстрация финального проекта](week_26_final_project/practice/DEPLOYMENT_AND_EVALUATION.md)
+- [Неделя 18: API и чат-бот](week_18_gpt_api_chatbot/practice/LIVE_API_LAB.md)
+- [Неделя 19: RAG-клиент](week_19_context_memory/practice/live_rag.py)
+- [Неделя 20: агент в Copilot Studio](week_20_copilot_basics/practice/COPILOT_STUDIO_LAB.md)
+- [Неделя 21: интеграции Copilot](week_21_copilot_integrations/practice/COPILOT_INTEGRATIONS_LAB.md)
+- [Неделя 22: workflow в n8n](week_22_n8n_workflows/practice/N8N_LAB.md)
+- [Неделя 23: AI-агент в n8n](week_23_n8n_ai_agents/practice/N8N_AI_AGENT_LAB.md)
+- [Неделя 24: локальная демонстрация финального проекта](week_24_final_project/practice/DEPLOYMENT_AND_EVALUATION.md)
 
 Для внешних сервисов могут понадобиться учебные аккаунты, лицензии, собственные API-ключи и оплачиваемый доступ. Локальная симуляция не подтверждает работу живого сервиса. Не добавляйте ключи и пароли в notebook или Git.
 
@@ -201,3 +199,10 @@ python -m pip install -r requirements-ml.txt
 **Публичная доступность файла не даёт автоматического разрешения на его дальнейшее распространение или коммерческое использование.** У части материалов есть ограничения non-commercial, у других открытая лицензия не подтверждена. Общая открытая лицензия на всю подборку не назначена.
 
 Перед повторным использованием прочитайте [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) и условия конкретного источника в каталоге. Для материалов без подтверждённого разрешения безопаснее делиться ссылкой на первоисточник.
+
+
+## Перенос недель · 17 ноября 2026
+
+[Карта переноса и проверка сохранности](00_course_admin/RENUMBERING_2026-11.md). SQL перенесён в отдельные разделы Week 12, ничего не удалено. Новая Week 04 продолжает City Trips; [учебный сайт](https://assylbekgizatov.github.io/week04/).
+
+Проверка переноса: `python scripts/validate_course.py --structure-only --require-catalog`. Она проверяет структуру, часы и каталог, но **не выполняет ноутбуки**. Старый отчёт 54/54 сохранён без изменений и относится к исходной нумерации. Полный новый Run All ещё не подтверждён. Генераторы `scripts/build_weeks_*.py` исторические: не запускайте их поверх перенумерованного курса.

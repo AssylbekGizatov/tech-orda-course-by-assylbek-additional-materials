@@ -3,7 +3,7 @@
 
 Usage:
     python scripts/execute_course.py
-    python scripts/execute_course.py --only week_09_linear_regression/practice/01_linear_regression_from_scratch.ipynb
+    python scripts/execute_course.py --only week_07_linear_regression/practice/01_linear_regression_from_scratch.ipynb
 
 Install requirements-ml.txt first. This is an execution command: it updates
 notebook outputs and the validation report. For a read-only integrity audit,
